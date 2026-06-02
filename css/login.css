@@ -82,15 +82,10 @@ body {
 
 .input-group {
   width: 100%;
-<<<<<<< HEAD
   height: 54px;
   padding: 0px 20px;
-=======
-  height: 45px;
-  padding: 0 18px;
->>>>>>> 3db7f6a948a30593b5938d1b174c6cc73da66eaf
   background: #0D0D0E;
-  border: 2px solid rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.02);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -113,11 +108,11 @@ body {
 /* Botão Continuar */
 .btn-continue {
   width: 100%;
-  height: 45px;
+  height: 54px;
   background: #FFFFFF;
   border: none;
   border-radius: 27px;
-  color: #000000; 
+  color: #000000;
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
@@ -129,6 +124,7 @@ body {
 
 .btn-continue:hover {
   opacity: 0.95;
+  transform: scale(1.05);
 }
 
 /* Divisor OR */
@@ -145,7 +141,7 @@ body {
   font-weight: 700;
 }
 
-/* Botões Sociais */
+/* Botões Redes Sociais */
 .social-login-container {
   display: flex;
   justify-content: center;
@@ -169,9 +165,6 @@ body {
 .social-icon-fb{ width: 26px; height: 26px; }
 .social-icon-x { width: 22px; height: 22px; }
 
-/* ==========================================================================
-   Bloco da Imagem (Direita)
-   ========================================================================== */
 .image-section {
   justify-self: end;
   display: flex;
@@ -179,7 +172,7 @@ body {
   align-items: center;
   gap: 25px;
   width: 100%;
-  max-width: 660px;
+  max-width: 560px;
 }
 
 .image-container {
@@ -189,8 +182,8 @@ body {
 }
 
 .featured-image {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   border-radius: 28px;
   object-fit: cover;
 }
@@ -216,4 +209,35 @@ body {
     justify-self: center;
     max-width: 440px;
   }
+}
+/* Botões Sociais */
+.social-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.social-btn {
+  width: 76px;  
+  height: 68px; 
+  background: #FFFFFF;
+  border: none;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Efeito ao passar o mouse (AUMENTA) */
+.social-btn:hover {
+  background: #F3F3F4;
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.05);
+  transform: scale(1.05); 
+}
+
+.social-btn:active {
+  transform: scale(0.95);
 }
