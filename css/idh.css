@@ -1,0 +1,269 @@
+/* ==========================================================================
+   RESET + LAYOUT CONFIG (Aba Inteira)
+   ========================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #050505; /* Cor base profunda da paleta */
+    overflow: hidden; /* Remove barras de rolagem globais da aba */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container do App que ocupa 100% do viewport da aba */
+.app-container {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px; /* Alinhado ao limite máximo do seu projeto original */
+    background-color: #050505;
+    padding: 32px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ==========================================================================
+   HEADER / ABAS SUPERIORES
+   ========================================================================== */
+
+.navbar-tabs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.tabs-left {
+    display: flex;
+    gap: 12px;
+    background-color: #161616; /* Fundo dos elementos secundários */
+    padding: 6px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(38, 38, 38, 0.50); /* #262626 com opacidade */
+}
+
+.tab-btn {
+    background: transparent;
+    border: none;
+    color: #A5A5A7; /* Texto secundário cinza médio */
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 22px;
+    border-radius: 999px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.tab-btn.active {
+    background-color: rgba(38, 38, 38, 0.50); /* #262626 com 0.50 */
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.tab-btn:hover:not(.active) {
+    color: #D9D9D9;
+    background-color: rgba(26, 26, 26, 0.80);
+}
+
+.profile-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.profile-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #D9D9D9; /* Cinza claro dos avatares da paleta */
+    color: #323232;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.status-indicator {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    width: 10px;
+    height: 10px;
+    background-color: #53AC5C; /* O verde exato indicado na sua paleta */
+    border: 2px solid #050505;
+    border-radius: 50%;
+}
+
+.arrow-down {
+    color: #A5A5A7;
+}
+
+/* ==========================================================================
+   INPUTS DE BUSCA E FILTRO
+   ========================================================================== */
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 28px;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.input-wrapper input {
+    width: 100%;
+    height: 52px;
+    background-color: rgba(26, 26, 26, 0.80); /* #1A1A1A com opacidade */
+    border: 1px solid #262626;
+    border-radius: 12px;
+    padding-left: 48px;
+    padding-right: 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.input-wrapper input::placeholder {
+    color: #3A3A3C; /* Tom cinza placeholder escuro */
+}
+
+.input-wrapper input:focus {
+    border-color: rgba(50, 50, 50, 0.50);
+}
+
+.search-icon, .filter-icon {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #3A3A3C;
+    pointer-events: none;
+}
+
+/* Estilização para o input estático de filtro */
+.search-section .input-wrapper:last-child input {
+    color: #A5A5A7;
+    cursor: default;
+}
+
+/* ==========================================================================
+   LISTAGEM ROLÁVEL (OCUPA O RESTANTE DA TELA)
+   ========================================================================== */
+
+.ranking-list {
+    flex: 1; /* Faz a lista crescer até a borda inferior da aba */
+    overflow-y: auto; /* Adiciona scroll interno para os países */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 6px; /* Espaço para não encostar na scrollbar */
+}
+
+/* Scrollbar Customizada Estilo Dark Moderno */
+.ranking-list::-webkit-scrollbar {
+    width: 6px;
+}
+.ranking-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+.ranking-list::-webkit-scrollbar-thumb {
+    background: rgba(50, 50, 50, 0.50); /* #323232 c/ opacidade */
+    border-radius: 999px;
+}
+
+/* Item da Lista */
+.ranking-item {
+    width: 100%;
+    background-color: #161616; /* Cor exata da paleta para os cards */
+    border: 1px solid rgba(38, 38, 38, 0.3);
+    border-radius: 12px;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.ranking-item:hover {
+    background-color: rgba(38, 38, 38, 0.50);
+}
+
+.rank-number {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3A3A3C;
+    min-width: 44px;
+}
+
+.flag-icon {
+    width: 32px;
+    height: 22px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-right: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.country-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.country-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.country-metrics {
+    font-size: 13px;
+    color: #A5A5A7;
+}
+
+.country-metrics strong {
+    color: #D9D9D9; /* Destaque do valor numérico */
+    font-weight: 600;
+}
+
+.divider {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: #323232;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* Responsividade de Tela Cheia */
+@media (max-width: 768px) {
+    .app-container {
+        padding: 20px;
+    }
+    .tabs-left {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .tab-btn {
+        padding: 10px 14px;
+        font-size: 13px;
+    }
+}

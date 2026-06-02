@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberTaxas | IDH Dashboard</title>
+    <link rel="stylesheet" href="css/idh.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="app-container">
+      
+      <header class="navbar-tabs">
+        <div class="tabs-left">
+          <button class="tab-btn active">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>
+            IDH
+          </button>
+          <button class="tab-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+            Bolsas/Ações
+          </button>
+          <button class="tab-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v12"/><path d="M16 8H11a2 2 0 0 0 0 4h2a2 2 0 0 1 0 4H8"/></svg>
+            Coins
+          </button>
+        </div>
+        
+        <div class="profile-area">
+          <div class="profile-avatar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+            <span class="status-indicator"></span>
+          </div>
+          <svg class="arrow-down" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </div>
+      </header>
+
+      <section class="search-section">
+        <div class="input-wrapper">
+          <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" placeholder="Digite o nome de um país..." />
+        </div>
+        <div class="input-wrapper">
+          <svg class="filter-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+          <input type="text" value="Filtrar por: IDH" readonly />
+        </div>
+      </section>
+
+      <section class="ranking-list">
+        
+        <div class="ranking-item">
+          <span class="rank-number">#1</span>
+          <img src="https://flagcdn.com/w40/no.png" alt="Noruega" class="flag-icon" />
+          <div class="country-details">
+            <span class="country-name">Noruega</span>
+            <span class="country-metrics">IDH: <strong>0,967</strong> <span class="divider"></span> PIB: $478 BI</span>
+          </div>
+        </div>
+
+        <div class="ranking-item">
+          <span class="rank-number">#2</span>
+          <img src="https://flagcdn.com/w40/ch.png" alt="Suíça" class="flag-icon" />
+          <div class="country-details">
+            <span class="country-name">Suíça</span>
+            <span class="country-metrics">IDH: <strong>0,966</strong> <span class="divider"></span> PIB: $1,5 TRI</span>
+          </div>
+        </div>
+
+        <div class="ranking-item">
+          <span class="rank-number">#3</span>
+          <img src="https://flagcdn.com/w40/is.png" alt="Islândia" class="flag-icon" />
+          <div class="country-details">
+            <span class="country-name">Islândia</span>
+            <span class="country-metrics">IDH: <strong>0,959</strong> <span class="divider"></span> PIB: $43,8 BI</span>
+          </div>
+        </div>
+
+        <div class="ranking-item">
+          <span class="rank-number">#4</span>
+          <img src="https://flagcdn.com/w40/hk.png" alt="Hong Kong" class="flag-icon" />
+          <div class="country-details">
+            <span class="country-name">Hong Kong</span>
+            <span class="country-metrics">IDH: <strong>0,956</strong> <span class="divider"></span> PIB: $450 BI</span>
+          </div>
+        </div>
+
+        <div class="ranking-item">
+          <span class="rank-number">#5</span>
+          <img src="https://flagcdn.com/w40/dk.png" alt="Dinamarca" class="flag-icon" />
+          <div class="country-details">
+            <span class="country-name">Dinamarca</span>
+            <span class="country-metrics">IDH: <strong>0,952</strong> <span class="divider"></span> PIB: $503 BI</span>
+          </div>
+        </div>
+
+        <div class="ranking-item">
+          <span class="rank-number">#6</span>
+          <img src="https://flagcdn.com/w40/se.png" alt="Suécia" class="flag-icon" />
+          <div class="country-details">
+            <span class="country-name">Suécia</span>
+            <span class="country-metrics">IDH: <strong>0,952</strong> <span class="divider"></span> PIB: $760 BI</span>
+          </div>
+        </div>
+
+        <div class="ranking-item">
+          <span class="rank-number">#7</span>
+          <img src="https://flagcdn.com/w40/de.png" alt="Alemanha" class="flag-icon" />
+          <div class="country-details">
+            <span class="country-name">Alemanha</span>
+            <span class="country-metrics">IDH: <strong>0,950</strong> <span class="divider"></span> PIB: $5 TRI</span>
+          </div>
+        </div>
+
+        <div class="ranking-item">
+          <span class="rank-number">#8</span>
+          <img src="https://flagcdn.com/w40/ie.png" alt="Irlanda" class="flag-icon" />
+          <div class="country-details">
+            <span class="country-name">Irlanda</span>
+            <span class="country-metrics">IDH: <strong>0,950</strong> <span class="divider"></span> PIB: $779 BI</span>
+          </div>
+        </div>
+
+        <div class="ranking-item">
+          <span class="rank-number">#9</span>
+          <img src="https://flagcdn.com/w40/sg.png" alt="Singapura" class="flag-icon" />
+          <div class="country-details">
+            <span class="country-name">Singapura</span>
+            <span class="country-metrics">IDH: <strong>0,949</strong> <span class="divider"></span> PIB: $659 BI</span>
+          </div>
+        </div>
+
+        <div class="ranking-item">
+          <span class="rank-number">#10</span>
+          <img src="https://flagcdn.com/w40/au.png" alt="Austrália" class="flag-icon" />
+          <div class="country-details">
+            <span class="country-name">Austrália</span>
+            <span class="country-metrics">IDH: <strong>0,946</strong> <span class="divider"></span> PIB: $2,12 TRI</span>
+          </div>
+        </div>
+
+        <div class="ranking-item">
+          <span class="rank-number">#11</span>
+          <img src="https://flagcdn.com/w40/nl.png" alt="Países Baixos" class="flag-icon" />
+          <div class="country-details">
+            <span class="country-name">Países Baixos (Holanda)</span>
+            <span class="country-metrics">IDH: <strong>0,946</strong> <span class="divider"></span> PIB: $1,45 TRI</span>
+          </div>
+        </div>
+
+      </section>
+    </main>
+  </body>
+</html>
