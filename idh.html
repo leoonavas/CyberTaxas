@@ -13,6 +13,8 @@
     />
   </head>
   <body>
+    <div class="bg-glow"> </div>
+
     <main class="app-container">
       
       <header class="navbar-tabs">
@@ -51,108 +53,19 @@
         </div>
       </section>
 
-      <section class="ranking-list">
-        
-        <div class="ranking-item">
-          <span class="rank-number">#1</span>
-          <img src="https://flagcdn.com/w40/no.png" alt="Noruega" class="flag-icon" />
-          <div class="country-details">
-            <span class="country-name">Noruega</span>
-            <span class="country-metrics">IDH: <strong>0,967</strong> <span class="divider"></span> PIB: $478 BI</span>
-          </div>
+      <section class="ranking-list" aria-label="Ranking de IDH">
+
+        <div class="ranking-section">
+          <h2>Maior IDH</h2>
+          <div id="highest-idh-list" class="ranking-items"></div>
         </div>
 
-        <div class="ranking-item">
-          <span class="rank-number">#2</span>
-          <img src="https://flagcdn.com/w40/ch.png" alt="Suíça" class="flag-icon" />
-          <div class="country-details">
-            <span class="country-name">Suíça</span>
-            <span class="country-metrics">IDH: <strong>0,966</strong> <span class="divider"></span> PIB: $1,5 TRI</span>
-          </div>
+        <div class="ranking-section">
+          <h2>Menor IDH</h2>
+          <div id="lowest-idh-list" class="ranking-items"></div>
         </div>
-
-        <div class="ranking-item">
-          <span class="rank-number">#3</span>
-          <img src="https://flagcdn.com/w40/is.png" alt="Islândia" class="flag-icon" />
-          <div class="country-details">
-            <span class="country-name">Islândia</span>
-            <span class="country-metrics">IDH: <strong>0,959</strong> <span class="divider"></span> PIB: $43,8 BI</span>
-          </div>
-        </div>
-
-        <div class="ranking-item">
-          <span class="rank-number">#4</span>
-          <img src="https://flagcdn.com/w40/hk.png" alt="Hong Kong" class="flag-icon" />
-          <div class="country-details">
-            <span class="country-name">Hong Kong</span>
-            <span class="country-metrics">IDH: <strong>0,956</strong> <span class="divider"></span> PIB: $450 BI</span>
-          </div>
-        </div>
-
-        <div class="ranking-item">
-          <span class="rank-number">#5</span>
-          <img src="https://flagcdn.com/w40/dk.png" alt="Dinamarca" class="flag-icon" />
-          <div class="country-details">
-            <span class="country-name">Dinamarca</span>
-            <span class="country-metrics">IDH: <strong>0,952</strong> <span class="divider"></span> PIB: $503 BI</span>
-          </div>
-        </div>
-
-        <div class="ranking-item">
-          <span class="rank-number">#6</span>
-          <img src="https://flagcdn.com/w40/se.png" alt="Suécia" class="flag-icon" />
-          <div class="country-details">
-            <span class="country-name">Suécia</span>
-            <span class="country-metrics">IDH: <strong>0,952</strong> <span class="divider"></span> PIB: $760 BI</span>
-          </div>
-        </div>
-
-        <div class="ranking-item">
-          <span class="rank-number">#7</span>
-          <img src="https://flagcdn.com/w40/de.png" alt="Alemanha" class="flag-icon" />
-          <div class="country-details">
-            <span class="country-name">Alemanha</span>
-            <span class="country-metrics">IDH: <strong>0,950</strong> <span class="divider"></span> PIB: $5 TRI</span>
-          </div>
-        </div>
-
-        <div class="ranking-item">
-          <span class="rank-number">#8</span>
-          <img src="https://flagcdn.com/w40/ie.png" alt="Irlanda" class="flag-icon" />
-          <div class="country-details">
-            <span class="country-name">Irlanda</span>
-            <span class="country-metrics">IDH: <strong>0,950</strong> <span class="divider"></span> PIB: $779 BI</span>
-          </div>
-        </div>
-
-        <div class="ranking-item">
-          <span class="rank-number">#9</span>
-          <img src="https://flagcdn.com/w40/sg.png" alt="Singapura" class="flag-icon" />
-          <div class="country-details">
-            <span class="country-name">Singapura</span>
-            <span class="country-metrics">IDH: <strong>0,949</strong> <span class="divider"></span> PIB: $659 BI</span>
-          </div>
-        </div>
-
-        <div class="ranking-item">
-          <span class="rank-number">#10</span>
-          <img src="https://flagcdn.com/w40/au.png" alt="Austrália" class="flag-icon" />
-          <div class="country-details">
-            <span class="country-name">Austrália</span>
-            <span class="country-metrics">IDH: <strong>0,946</strong> <span class="divider"></span> PIB: $2,12 TRI</span>
-          </div>
-        </div>
-
-        <div class="ranking-item">
-          <span class="rank-number">#11</span>
-          <img src="https://flagcdn.com/w40/nl.png" alt="Países Baixos" class="flag-icon" />
-          <div class="country-details">
-            <span class="country-name">Países Baixos (Holanda)</span>
-            <span class="country-metrics">IDH: <strong>0,946</strong> <span class="divider"></span> PIB: $1,45 TRI</span>
-          </div>
-        </div>
-
       </section>
     </main>
+    <script src="js/idh.js" defer></script>
   </body>
 </html>

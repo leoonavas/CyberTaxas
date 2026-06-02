@@ -205,11 +205,31 @@ body {
 .ranking-item:hover {
     background-color: rgba(38, 38, 38, 0.50);
 }
+.bg-glow {
+    position: absolute;
 
+    width: 700px;
+    height: 700px;
+
+    left: -180px;
+    top: -260px;
+
+    background: rgba(255,255,255,0.10);
+
+    filter: blur(180px);
+
+    opacity: 0.95;
+
+    mix-blend-mode: screen;
+
+    /* z-index:; */
+
+    pointer-events: none;
+}
 .rank-number {
     font-size: 14px;
     font-weight: 600;
-    color: #3A3A3C;
+    color: #ffffff;
     min-width: 44px;
 }
 
@@ -251,6 +271,44 @@ body {
     background-color: #323232;
     margin: 0 10px;
     vertical-align: middle;
+}
+
+.ranking-section {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.ranking-section h2 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.ranking-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.feedback-message {
+    color: #D9D9D9;
+    background-color: rgba(22, 22, 22, 0.9);
+    border: 1px solid rgba(66, 138, 255, 0.25);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+.feedback-error {
+    color: #FF8A8A;
+    border-color: rgba(255, 138, 138, 0.35);
+}
+
+.feedback-info {
+    color: #D9D9D9;
 }
 
 /* Responsividade de Tela Cheia */
