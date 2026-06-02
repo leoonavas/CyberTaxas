@@ -228,21 +228,16 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  /* Transição suave para a cor de fundo e para o efeito de clique */
-  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-/* Efeito ao passar o mouse */
+/* Efeito ao passar o mouse (AUMENTA) */
 .social-btn:hover {
-  background: #F3F3F4; /* Cinza bem sutil para indicar o foco */
+  background: #F3F3F4;
   box-shadow: 0 6px 12px rgba(255, 255, 255, 0.05);
+  transform: scale(1.05); 
 }
 
-/* Efeito ao clicar */
 .social-btn:active {
-  transform: scale(0.95); /* Encolhe levemente o botão simulando um clique */
+  transform: scale(0.95);
 }
-
-.social-icon   { width: 24px; height: 24px; }
-.social-icon-fb{ width: 26px; height: 26px; }
-.social-icon-x { width: 22px; height: 22px; }
