@@ -124,6 +124,7 @@ body {
 
 .btn-continue:hover {
   opacity: 0.95;
+  transform: scale(1.05);
 }
 
 /* Divisor OR */
@@ -140,7 +141,7 @@ body {
   font-weight: 700;
 }
 
-/* Botões Sociais */
+/* Botões Redes Sociais */
 .social-login-container {
   display: flex;
   justify-content: center;
@@ -164,9 +165,6 @@ body {
 .social-icon-fb{ width: 26px; height: 26px; }
 .social-icon-x { width: 22px; height: 22px; }
 
-/* ==========================================================================
-   Bloco da Imagem (Direita)
-   ========================================================================== */
 .image-section {
   justify-self: end;
   display: flex;
@@ -174,7 +172,7 @@ body {
   align-items: center;
   gap: 25px;
   width: 100%;
-  max-width: 660px;
+  max-width: 560px;
 }
 
 .image-container {
@@ -212,3 +210,39 @@ body {
     max-width: 440px;
   }
 }
+/* Botões Sociais */
+.social-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.social-btn {
+  width: 76px;  
+  height: 68px; 
+  background: #FFFFFF;
+  border: none;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* Transição suave para a cor de fundo e para o efeito de clique */
+  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+/* Efeito ao passar o mouse */
+.social-btn:hover {
+  background: #F3F3F4; /* Cinza bem sutil para indicar o foco */
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.05);
+}
+
+/* Efeito ao clicar */
+.social-btn:active {
+  transform: scale(0.95); /* Encolhe levemente o botão simulando um clique */
+}
+
+.social-icon   { width: 24px; height: 24px; }
+.social-icon-fb{ width: 26px; height: 26px; }
+.social-icon-x { width: 22px; height: 22px; }
