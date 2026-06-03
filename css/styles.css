@@ -1,7 +1,3 @@
-/* ==========================================================================
-   RESET + BASE
-   ========================================================================== */
-
 * {
     margin: 0;
     padding: 0;
@@ -165,7 +161,7 @@ body {
     font-size: 15px;
 }
 
-.btn-large {
+.button {
     padding: 17px 42px;
 
     font-size: 18px;
@@ -241,7 +237,7 @@ body {
     perspective: 1400px;
 }
 
-.coin-video-wrapper {
+.terra-video {
     position: absolute;
 
     width: 740px;
@@ -460,7 +456,7 @@ body {
         font-size: 50px;
     }
 
-    .coin-video-wrapper {
+    .terra-video {
         width: 620px;
         height: 620px;
     }
@@ -497,7 +493,7 @@ body {
         margin-top: -20px;
     }
 
-    .coin-video-wrapper {
+    .terra-video {
         width: 520px;
         height: 520px;
 
@@ -543,7 +539,7 @@ body {
         height: 650px;
     }
 
-    .coin-video-wrapper {
+    .terra-video {
         width: 430px;
         height: 430px;
 
