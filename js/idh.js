@@ -4,28 +4,7 @@ const feedbackElement = document.getElementById('idh-feedback');
 const highestListElement = document.getElementById('highest-idh-list');
 const lowestListElement = document.getElementById('lowest-idh-list');
 
-function createFeedbackMessage(message, type = 'info') {
-  if (!feedbackElement) {
-    return;
-  }
 
-  feedbackElement.textContent = message;
-  feedbackElement.className = 'feedback-message';
-  feedbackElement.classList.add(type === 'error' ? 'feedback-error' : 'feedback-info');
-}
-
-function parseIdhValue(value) {
-  if (typeof value === 'number') {
-    return Number.isFinite(value) ? value : NaN;
-  }
-
-  if (typeof value === 'string') {
-    const normalized = value.replace(',', '.').trim();
-    return Number(normalized);
-  }
-
-  return NaN;
-}
 
 function normalizeCountryRecord(rawRecord) {
   if (!rawRecord || typeof rawRecord !== 'object') {
@@ -33,7 +12,7 @@ function normalizeCountryRecord(rawRecord) {
   }
 
   const country = String(rawRecord.pais ?? '').trim();
-  const idh = parseIdhValue(rawRecord.idh);
+  const idh = rawRecord.idh;
 
   if (!country || Number.isNaN(idh)) {
     return null;
@@ -127,10 +106,6 @@ async function initializeIdhPage() {
     renderCountries(lowestListElement, [...sortedCountries].reverse());
   } catch (error) {
     console.error('Erro ao inicializar a página de IDH:', error);
-    createFeedbackMessage(
-      'Não foi possível carregar os dados de IDH. Verifique a conexão ou o arquivo settings/paises.json.',
-      'error'
-    );
   }
 }
 
