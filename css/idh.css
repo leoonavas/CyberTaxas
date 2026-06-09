@@ -181,7 +181,7 @@ body {
     align-items: center;
     transition: background-color 0.15s ease-in-out;
     opacity: 80%;
-    margin-bottom: 12px; 
+    margin-bottom: 6px; 
 }
 
 .ranking-item:last-child {
