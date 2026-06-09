@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* topo */
+.navbar {
+  padding: 20px;
+}
+
+.logo {
+  margin: 0;
+}
+
+/* layout principal */
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+/* esquerda (news) */
+.news {
+  width: 300px;
+  background: #0a0a0a;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.news-item {
+  border: 1px solid #222;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+
+/* destaque verde */
+.highlight {
+  border: 1px solid #00ff88;
+  box-shadow: 0 0 8px #00ff88;
+}
+
+/* direita */
+.market {
+  flex: 1;
+}
+
+/* cards */
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* card */
+.card {
+  flex: 1 1 220px;
+  height: 240px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #222;
+  background: #111;
+}
+
+/* imagem */
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* cores */
+.btc {
+  border: 1px solid #00ff88;
+}
+
+.eth {
+  border: 1px solid #00cfff;
+}
+
+.sp {
+  border: 1px solid #00ff88;
+}
+
+.nasdaq {
+  border: 1px solid red;
+}

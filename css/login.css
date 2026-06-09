@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   overflow: hidden;
 }
 
-.screen-container {
+.container {
   width: 100vw;
   height: 100vh;
   max-width: 1920px;
@@ -41,32 +41,32 @@ body {
 }
 
 /* ==========================================================================
-   Bloco do Formulário (Esquerda) - AJUSTADO (Espaçamento Máximo)
+   Bloco do Formulário (Esquerda)
    ========================================================================== */
-.login-wrapper {
+.login-container {
   width: 100%;
   max-width: 440px;
   display: flex;
   flex-direction: column;
-  gap: 64px;         /* AUMENTADO: De 48px para 64px para o layout respirar ao máximo */
-  margin-top: -110px; 
+  gap: 64px;
+  margin-top: -110px;
 }
 
-.login-header {
+.header {
   display: flex;
   flex-direction: column;
-  gap: 16px;         /* AUMENTADO: Mais espaço entre o título e o subtítulo */
+  gap: 16px;
 }
 
-.main-title {
-  color: #FFFFFF;
+.hero-title {
+  color: #ffffff;
   font-size: clamp(34px, 2.8vw, 48px);
   font-weight: 700;
   letter-spacing: -1.2px;
 }
 
-.subtitle {
-  color: #4C4C4E;
+.hero-subtitle {
+  color: #4c4c4e;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.4;
@@ -74,57 +74,65 @@ body {
 }
 
 /* Form e Elementos Internos */
-.form-container {
+.form {
   display: flex;
   flex-direction: column;
   gap: 18px;
 }
 
-.input-group {
+.form-group {
   width: 100%;
   height: 54px;
   padding: 0px 20px;
-  background: #0D0D0E;
+  background: #0d0d0e;
   border: 1px solid rgba(255, 255, 255, 0.02);
   border-radius: 12px;
   display: flex;
   align-items: center;
 }
 
-.input-group input {
+.form-group input {
   flex: 1;
   background: transparent;
   border: none;
   outline: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 15px;
   font-weight: 500;
 }
 
-.input-group input::placeholder {
-  color: #3E3E40;
+.form-group input::placeholder {
+  color: #3e3e40;
 }
 
-/* Botão Continuar */
-.btn-continue {
+/* Botões do Sistema */
+.btn {
   width: 100%;
   height: 54px;
-  background: #FFFFFF;
   border: none;
-  border-radius: 27px;
-  color: #000000;
-  font-size: 18px;
-  font-weight: 700;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-.btn-continue:hover {
-  opacity: 0.95;
-  transform: scale(1.05);
+.btn-submit {
+  background: #ffffff;
+  border-radius: 27px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.15);
+}
+
+.btn-submit:active {
+  transform: scale(0.96);
 }
 
 /* Divisor OR */
@@ -136,92 +144,23 @@ body {
 }
 
 .divider span {
-  color: #4C4C4E;
+  color: #4c4c4e;
   font-size: 14px;
   font-weight: 700;
 }
 
 /* Botões Redes Sociais */
-.social-login-container {
+.social-links {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 18px;
 }
 
-.social-btn {
-  width: 76px;  
-  height: 68px; 
-  background: #FFFFFF;
-  border: none;
-  border-radius: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.social-icon   { width: 24px; height: 24px; }
-.social-icon-fb{ width: 26px; height: 26px; }
-.social-icon-x { width: 22px; height: 22px; }
-
-.image-section {
-  justify-self: end;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 25px;
-  width: 100%;
-  max-width: 560px;
-}
-
-.image-container {
-  width: 100%;
-  aspect-ratio: 700 / 933;
-  max-height: 82vh;
-}
-
-.featured-image {
-  width: 100%;
-  height: 100%;
-  border-radius: 28px;
-  object-fit: cover;
-}
-
-/* ==========================================================================
-   Breakpoints Responsivos
-   ========================================================================== */
-@media (max-width: 1024px) {
-  .screen-container {
-    grid-template-columns: 1fr;
-    height: auto;
-    min-height: 100vh;
-    padding: 50px 30px;
-    gap: 50px;
-    overflow-y: auto;
-  }
-  .login-wrapper {
-    margin-top: 0; 
-    justify-self: center;
-    max-width: 440px;
-  }
-  .image-dsection {
-    justify-self: center;
-    max-width: 440px;
-  }
-}
-/* Botões Sociais */
-.social-login-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 18px;
-}
-
-.social-btn {
-  width: 76px;  
-  height: 68px; 
-  background: #FFFFFF;
+.btn-social {
+  width: 76px;
+  height: 68px;
+  background: #ffffff;
   border: none;
   border-radius: 18px;
   display: flex;
@@ -231,13 +170,65 @@ body {
   transition: all 0.2s ease;
 }
 
-/* Efeito ao passar o mouse (AUMENTA) */
-.social-btn:hover {
-  background: #F3F3F4;
+.btn-social:hover {
+  background: #f3f3f4;
   box-shadow: 0 6px 12px rgba(255, 255, 255, 0.05);
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
-.social-btn:active {
+.btn-social:active {
   transform: scale(0.95);
+}
+
+/* Redimensionamento automático e inteligente dos ícones */
+.btn-social img {
+  max-width: 26px;
+  max-height: 26px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.hero {
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  max-width: 560px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  object-fit: cover;
+  aspect-ratio: 700 / 933;
+  max-height: 82vh;
+}
+
+/* ==========================================================================
+   Breakpoints Responsivos
+   ========================================================================== */
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr;
+    height: auto;
+    min-height: 100vh;
+    padding: 50px 30px;
+    gap: 50px;
+    overflow-y: auto;
+  }
+
+  .login-container {
+    margin-top: 0;
+    justify-self: center;
+    max-width: 440px;
+  }
+
+  .hero {
+    justify-self: center;
+    max-width: 440px;
+  }
 }

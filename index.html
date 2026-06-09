@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -16,31 +16,37 @@
     <div class="bg-glow"></div>
 
     <main class="land-page">
-        <header class="header">
-            <nav class="links">
-                <a href="#">About us</a>
-                <a href="#">Buy me a coffe</a>
-                <a href="#">Contact</a>
-            </nav>
-            <div class="login-buttons">
-                <a href="login.html">
-                    <button class="btn btn-secondary">Login</button>
-                </a>
-                <a href="idh.html">
-                    <button class="btn btn-primary">Register</button>
-                </a>
-            </div>
-        </header>
+      <header class="header">
+        <nav class="links">
+          <a href="aboutUs.html">About us</a>
+          <a href="market.html"> Market News </a>
+          <a href="contato.html">Contact</a>
+        </nav>
+
+        <div class="login-buttons">
+          <button class="btn btn-secondary" onclick="abrirLogin()">
+            Login
+          </button>
+          <a href="register.html">
+            <button class="btn btn-primary">Register</button>
+          </a>
+        </div>
+      </header>
 
       <section class="main-brand">
         <h1 class="headline">
-            Elevate your knowledge with Cyber<span style="color: rgb(56, 255, 189);">Taxas</span>
-        </h1>        
+          Elevate your knowledge with Cyber<span
+            style="color: rgb(56, 255, 189)"
+            >Taxas</span
+          >
+        </h1>
         <p class="subheadline">
           The best free platform. And the only one that helps you invest your
           money the right way.
         </p>
-        <button class="btn btn-secondary button">Explore Now</button>
+        <a href="idh.html">
+          <button class="btn btn-secondary button">Explore Now</button>
+        </a>
       </section>
 
       <section class="visual-composition">
