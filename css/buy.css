@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #05070a; /* MAIS PRETO */
+  color: #fff;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  border-bottom: 1px solid #111;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #888;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav a.active {
+  color: #00ff9c;
+}
+
+/* CONTEÚDO */
+main {
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h1 span {
+  color: #00ff9c;
+}
+
+main p {
+  color: #aaa;
+}
+
+/* CARD CENTRAL (MAIOR) */
+.card {
+  background: #0b1117;
+  width: 420px; /* aumentei */
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 14px;
+  border: 1px solid #1a222c;
+}
+
+/* PIX */
+.pix-box label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.pix-input {
+  display: flex;
+  background: #05070a;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.pix-input input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+
+.pix-input button {
+  background: #00ff9c;
+  border: none;
+  padding: 12px 18px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.pix-input button:hover {
+  opacity: 0.8;
+}
+
+/* DIVIDER */
+.divider {
+  margin: 25px 0;
+  color: #666;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  height: 1px;
+  width: 40%;
+  background: #222;
+  position: absolute;
+  top: 50%;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+/* QR CODE */
+/* QR BOX CENTRALIZADO */
+.qr-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* CENTRALIZA TUDO */
+  text-align: center;
+}
+
+/* TEXTO ACIMA */
+.qr-title {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #ddd;
+}
+
+/* QR CODE */
+.qr-box img {
+  width: 180px;
+  margin: 10px 0;
+}
+
+/* TEXTO ABAIXO */
+.qr-box small {
+  color: #888;
+  margin-top: 5px;
+}
+
+.qr-box img {
+  width: 180px; /* maior */
+  margin: 15px 0;
+  align-items: center;
+  display: flex;
+  right: 100px;
+}
+
+.qr-box small {
+  color: #888;
+}
+
+/* SEGURANÇA */
+.safe {
+  margin-top: 20px;
+  color: #00ff9c;
+  font-weight: bold;
+}
+
+/* AGRADECIMENTO */
+.thanks {
+  margin-top: 5px;
+  color: #aaa;
+}

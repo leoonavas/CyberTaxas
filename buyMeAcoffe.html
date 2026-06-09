@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cyber Taxas - Enviar Dinheiro</title>
+    <link rel="stylesheet" href="css/buy.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div class="logo">Cyber Taxas</div>
+      <nav>
+        <a href="aboutUs.html">About us</a>
+        <a href="#" class="active">Buy me a coffe</a>
+        <a href="contato.html">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+      <h1>Enviar <span>dinheiro</span></h1>
+      <p>Apoie o projeto Cyber Taxas ☕</p>
+
+      <div class="card">
+        <!-- PIX -->
+        <div class="pix-box">
+          <label>Chave PIX</label>
+          <div class="pix-input">
+            <input
+              type="text"
+              value="pix@cybertaxas.com"
+              id="pixKey"
+              readonly
+            />
+            <button onclick="copiarPix()">Copiar</button>
+          </div>
+        </div>
+
+        <div class="divider">ou</div>
+
+        <!-- QR Code -->
+        <div class="qr-box">
+          <p class="qr-title">Escaneie o QR Code</p>
+
+          <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=pix@cybertaxas.com"
+            alt="QR Code"
+          />
+
+          <small>Escaneie com o app do seu banco</small>
+        </div>
+
+        <p class="safe">Pagamento 100% seguro</p>
+      </div>
+
+      <p class="thanks">💚 Obrigado pelo seu apoio!</p>
+    </main>
+
+    <script src="js/buy.js"></script>
+  </body>
+</html>
