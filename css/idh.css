@@ -1,6 +1,3 @@
-/* ==========================================================================
-   RESET + LAYOUT CONFIG (Aba Inteira)
-   ========================================================================== */
 
 * {
     margin: 0;
@@ -13,27 +10,22 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-color: #050505; /* Cor base profunda da paleta */
-    overflow: hidden; /* Remove barras de rolagem globais da aba */
+    background-color: #050505; 
+    overflow: hidden; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Container do App que ocupa 100% do viewport da aba */
 .app-container {
     width: 100%;
     height: 100%;
-    max-width: 1920px; /* Alinhado ao limite máximo do seu projeto original */
-    background-color: #050505;
+    max-width: 1920px;
+    background-color: #060606;
     padding: 32px 40px;
     display: flex;
     flex-direction: column;
 }
-
-/* ==========================================================================
-   HEADER / ABAS SUPERIORES
-   ========================================================================== */
 
 .navbar-tabs {
     width: 100%;
@@ -45,17 +37,18 @@ body {
 
 .tabs-left {
     display: flex;
+    width: 100%;
     gap: 12px;
-    background-color: #161616; /* Fundo dos elementos secundários */
-    padding: 6px 12px;
+    background-color: rgba(22, 22, 22, 0.5);
+    padding: 6px;
     border-radius: 999px;
-    border: 1px solid rgba(38, 38, 38, 0.50); /* #262626 com opacidade */
+    border: 2px solid #1a1a1a;
 }
 
 .tab-btn {
     background: transparent;
     border: none;
-    color: #A5A5A7; /* Texto secundário cinza médio */
+    color: #A5A5A7;
     font-size: 14px;
     font-weight: 500;
     padding: 10px 22px;
@@ -68,7 +61,7 @@ body {
 }
 
 .tab-btn.active {
-    background-color: rgba(38, 38, 38, 0.50); /* #262626 com 0.50 */
+    background-color: rgba(38, 38, 38, 0.50);
     color: #FFFFFF;
     font-weight: 600;
 }
@@ -88,7 +81,7 @@ body {
 .profile-avatar {
     width: 40px;
     height: 40px;
-    background-color: #D9D9D9; /* Cinza claro dos avatares da paleta */
+    background-color: #D9D9D9;
     color: #323232;
     border-radius: 50%;
     display: flex;
@@ -103,7 +96,7 @@ body {
     right: 1px;
     width: 10px;
     height: 10px;
-    background-color: #53AC5C; /* O verde exato indicado na sua paleta */
+    background-color: #53AC5C;
     border: 2px solid #050505;
     border-radius: 50%;
 }
@@ -111,10 +104,6 @@ body {
 .arrow-down {
     color: #A5A5A7;
 }
-
-/* ==========================================================================
-   INPUTS DE BUSCA E FILTRO
-   ========================================================================== */
 
 .search-section {
     display: flex;
@@ -131,20 +120,18 @@ body {
 .input-wrapper input {
     width: 100%;
     height: 52px;
-    background-color: rgba(26, 26, 26, 0.80); /* #1A1A1A com opacidade */
-    border: 1px solid #262626;
+    background-color: #1a1a1a;
+    border: 2px solid rgba(50, 50, 50, 0.50);
     border-radius: 12px;
     padding-left: 48px;
     padding-right: 20px;
-    color: #FFFFFF;
+    color: #A5A5A7;
     font-size: 15px;
     outline: none;
+    opacity: 80%;
     transition: border-color 0.2s ease;
 }
 
-.input-wrapper input::placeholder {
-    color: #3A3A3C; /* Tom cinza placeholder escuro */
-}
 
 .input-wrapper input:focus {
     border-color: rgba(50, 50, 50, 0.50);
@@ -159,26 +146,20 @@ body {
     pointer-events: none;
 }
 
-/* Estilização para o input estático de filtro */
 .search-section .input-wrapper:last-child input {
     color: #A5A5A7;
     cursor: default;
 }
 
-/* ==========================================================================
-   LISTAGEM ROLÁVEL (OCUPA O RESTANTE DA TELA)
-   ========================================================================== */
-
 .ranking-list {
-    flex: 1; /* Faz a lista crescer até a borda inferior da aba */
-    overflow-y: auto; /* Adiciona scroll interno para os países */
+    flex: 1;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding-right: 6px; /* Espaço para não encostar na scrollbar */
+    gap: 28px;
+    padding-right: 6px;
 }
 
-/* Scrollbar Customizada Estilo Dark Moderno */
 .ranking-list::-webkit-scrollbar {
     width: 6px;
 }
@@ -186,45 +167,41 @@ body {
     background: transparent;
 }
 .ranking-list::-webkit-scrollbar-thumb {
-    background: rgba(50, 50, 50, 0.50); /* #323232 c/ opacidade */
+    background: rgba(50, 50, 50, 0.50);
     border-radius: 999px;
 }
 
-/* Item da Lista */
 .ranking-item {
     width: 100%;
-    background-color: #161616; /* Cor exata da paleta para os cards */
-    border: 1px solid rgba(38, 38, 38, 0.3);
+    background-color: #1a1a1a; 
+    border: 2px solid rgba(50, 50, 50, 0.3);
     border-radius: 12px;
-    padding: 18px 24px;
+    padding: 10px 24px;
     display: flex;
     align-items: center;
     transition: background-color 0.15s ease-in-out;
+    opacity: 80%;
+    margin-bottom: 6px; 
 }
+
+.ranking-item:last-child {
+    margin-bottom: 0;
+}
+
 
 .ranking-item:hover {
     background-color: rgba(38, 38, 38, 0.50);
 }
 .bg-glow {
     position: absolute;
-
     width: 700px;
     height: 700px;
-
     left: -180px;
     top: -260px;
-
-    background: rgba(255,255,255,0.10);
-
-    filter: blur(180px);
-
-    opacity: 0.95;
-
-    mix-blend-mode: screen;
-
-    /* z-index:; */
-
+    background: rgba(255, 255, 255, 0.15);
+    filter: blur(300px);
     pointer-events: none;
+    z-index: 0;
 }
 .rank-number {
     font-size: 14px;
@@ -260,7 +237,7 @@ body {
 }
 
 .country-metrics strong {
-    color: #D9D9D9; /* Destaque do valor numérico */
+    color: #D9D9D9;
     font-weight: 600;
 }
 
@@ -289,7 +266,7 @@ body {
 .ranking-items {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px !important;
 }
 
 .feedback-message {
@@ -311,7 +288,6 @@ body {
     color: #D9D9D9;
 }
 
-/* Responsividade de Tela Cheia */
 @media (max-width: 768px) {
     .app-container {
         padding: 20px;
