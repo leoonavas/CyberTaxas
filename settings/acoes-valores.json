@@ -1,0 +1,533 @@
+[
+  {
+    "ticker": "AAPL",
+    "moeda": "USD",
+    "preco_atual": 289.7,
+    "historico_12_meses": [
+      {
+        "mes": "2025-07",
+        "preco_fechamento": 207.57
+      },
+      {
+        "mes": "2025-08",
+        "preco_fechamento": 232.14
+      },
+      {
+        "mes": "2025-09",
+        "preco_fechamento": 254.63
+      },
+      {
+        "mes": "2025-10",
+        "preco_fechamento": 270.37
+      },
+      {
+        "mes": "2025-11",
+        "preco_fechamento": 278.85
+      },
+      {
+        "mes": "2025-12",
+        "preco_fechamento": 271.86
+      },
+      {
+        "mes": "2026-01",
+        "preco_fechamento": 259.48
+      },
+      {
+        "mes": "2026-02",
+        "preco_fechamento": 264.18
+      },
+      {
+        "mes": "2026-03",
+        "preco_fechamento": 253.79
+      },
+      {
+        "mes": "2026-04",
+        "preco_fechamento": 271.35
+      },
+      {
+        "mes": "2026-05",
+        "preco_fechamento": 312.06
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 301.54
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 289.7
+      }
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "moeda": "USD",
+    "preco_atual": 400.98,
+    "historico_12_meses": [
+      {
+        "mes": "2025-07",
+        "preco_fechamento": 533.5
+      },
+      {
+        "mes": "2025-08",
+        "preco_fechamento": 506.69
+      },
+      {
+        "mes": "2025-09",
+        "preco_fechamento": 517.95
+      },
+      {
+        "mes": "2025-10",
+        "preco_fechamento": 517.81
+      },
+      {
+        "mes": "2025-11",
+        "preco_fechamento": 492.01
+      },
+      {
+        "mes": "2025-12",
+        "preco_fechamento": 483.62
+      },
+      {
+        "mes": "2026-01",
+        "preco_fechamento": 430.29
+      },
+      {
+        "mes": "2026-02",
+        "preco_fechamento": 392.74
+      },
+      {
+        "mes": "2026-03",
+        "preco_fechamento": 370.17
+      },
+      {
+        "mes": "2026-04",
+        "preco_fechamento": 407.78
+      },
+      {
+        "mes": "2026-05",
+        "preco_fechamento": 450.24
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 411.74
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 400.98
+      }
+    ]
+  },
+  {
+    "ticker": "GOOGL",
+    "moeda": "USD",
+    "preco_atual": 361.76,
+    "historico_12_meses": [
+      {
+        "mes": "2025-07",
+        "preco_fechamento": 191.9
+      },
+      {
+        "mes": "2025-08",
+        "preco_fechamento": 212.91
+      },
+      {
+        "mes": "2025-09",
+        "preco_fechamento": 243.1
+      },
+      {
+        "mes": "2025-10",
+        "preco_fechamento": 281.19
+      },
+      {
+        "mes": "2025-11",
+        "preco_fechamento": 320.18
+      },
+      {
+        "mes": "2025-12",
+        "preco_fechamento": 313
+      },
+      {
+        "mes": "2026-01",
+        "preco_fechamento": 338
+      },
+      {
+        "mes": "2026-02",
+        "preco_fechamento": 311.76
+      },
+      {
+        "mes": "2026-03",
+        "preco_fechamento": 287.56
+      },
+      {
+        "mes": "2026-04",
+        "preco_fechamento": 384.8
+      },
+      {
+        "mes": "2026-05",
+        "preco_fechamento": 380.34
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 363.31
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 361.76
+      }
+    ]
+  },
+  {
+    "ticker": "AMZN",
+    "moeda": "USD",
+    "preco_atual": 241.96,
+    "historico_12_meses": [
+      {
+        "mes": "2025-07",
+        "preco_fechamento": 234.11
+      },
+      {
+        "mes": "2025-08",
+        "preco_fechamento": 229
+      },
+      {
+        "mes": "2025-09",
+        "preco_fechamento": 219.57
+      },
+      {
+        "mes": "2025-10",
+        "preco_fechamento": 244.22
+      },
+      {
+        "mes": "2025-11",
+        "preco_fechamento": 233.22
+      },
+      {
+        "mes": "2025-12",
+        "preco_fechamento": 230.82
+      },
+      {
+        "mes": "2026-01",
+        "preco_fechamento": 239.3
+      },
+      {
+        "mes": "2026-02",
+        "preco_fechamento": 210
+      },
+      {
+        "mes": "2026-03",
+        "preco_fechamento": 208.27
+      },
+      {
+        "mes": "2026-04",
+        "preco_fechamento": 265.06
+      },
+      {
+        "mes": "2026-05",
+        "preco_fechamento": 270.64
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 245.22
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 241.96
+      }
+    ]
+  },
+  {
+    "ticker": "TSLA",
+    "moeda": "USD",
+    "preco_atual": 390.03,
+    "historico_12_meses": [
+      {
+        "mes": "2025-07",
+        "preco_fechamento": 308.27
+      },
+      {
+        "mes": "2025-08",
+        "preco_fechamento": 333.87
+      },
+      {
+        "mes": "2025-09",
+        "preco_fechamento": 444.72
+      },
+      {
+        "mes": "2025-10",
+        "preco_fechamento": 456.56
+      },
+      {
+        "mes": "2025-11",
+        "preco_fechamento": 430.17
+      },
+      {
+        "mes": "2025-12",
+        "preco_fechamento": 449.72
+      },
+      {
+        "mes": "2026-01",
+        "preco_fechamento": 430.41
+      },
+      {
+        "mes": "2026-02",
+        "preco_fechamento": 402.51
+      },
+      {
+        "mes": "2026-03",
+        "preco_fechamento": 371.75
+      },
+      {
+        "mes": "2026-04",
+        "preco_fechamento": 381.63
+      },
+      {
+        "mes": "2026-05",
+        "preco_fechamento": 435.79
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 408.95
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 390.03
+      }
+    ]
+  },
+  {
+    "ticker": "PETR4.SA",
+    "moeda": "BRL",
+    "preco_atual": 41.22,
+    "historico_12_meses": [
+      {
+        "mes": "2025-07",
+        "preco_fechamento": 32.64
+      },
+      {
+        "mes": "2025-08",
+        "preco_fechamento": 31.1
+      },
+      {
+        "mes": "2025-09",
+        "preco_fechamento": 31.46
+      },
+      {
+        "mes": "2025-10",
+        "preco_fechamento": 29.75
+      },
+      {
+        "mes": "2025-11",
+        "preco_fechamento": 31.79
+      },
+      {
+        "mes": "2025-12",
+        "preco_fechamento": 30.82
+      },
+      {
+        "mes": "2026-01",
+        "preco_fechamento": 37.76
+      },
+      {
+        "mes": "2026-02",
+        "preco_fechamento": 39.33
+      },
+      {
+        "mes": "2026-03",
+        "preco_fechamento": 48.67
+      },
+      {
+        "mes": "2026-04",
+        "preco_fechamento": 49.08
+      },
+      {
+        "mes": "2026-05",
+        "preco_fechamento": 42
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 41.22
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 41.22
+      }
+    ]
+  },
+  {
+    "ticker": "VALE3.SA",
+    "moeda": "BRL",
+    "preco_atual": 77.16,
+    "historico_12_meses": [
+      {
+        "mes": "2025-07",
+        "preco_fechamento": 53.46
+      },
+      {
+        "mes": "2025-08",
+        "preco_fechamento": 55.56
+      },
+      {
+        "mes": "2025-09",
+        "preco_fechamento": 57.58
+      },
+      {
+        "mes": "2025-10",
+        "preco_fechamento": 65.26
+      },
+      {
+        "mes": "2025-11",
+        "preco_fechamento": 67.4
+      },
+      {
+        "mes": "2025-12",
+        "preco_fechamento": 71.96
+      },
+      {
+        "mes": "2026-01",
+        "preco_fechamento": 84.32
+      },
+      {
+        "mes": "2026-02",
+        "preco_fechamento": 88.47
+      },
+      {
+        "mes": "2026-03",
+        "preco_fechamento": 82.48
+      },
+      {
+        "mes": "2026-04",
+        "preco_fechamento": 81.18
+      },
+      {
+        "mes": "2026-05",
+        "preco_fechamento": 82.82
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 78.07
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 77.16
+      }
+    ]
+  },
+  {
+    "ticker": "ITUB4.SA",
+    "moeda": "BRL",
+    "preco_atual": 38.91,
+    "historico_12_meses": [
+      {
+        "mes": "2025-07",
+        "preco_fechamento": 34.14
+      },
+      {
+        "mes": "2025-08",
+        "preco_fechamento": 37.37
+      },
+      {
+        "mes": "2025-09",
+        "preco_fechamento": 37.93
+      },
+      {
+        "mes": "2025-10",
+        "preco_fechamento": 38.29
+      },
+      {
+        "mes": "2025-11",
+        "preco_fechamento": 40.43
+      },
+      {
+        "mes": "2025-12",
+        "preco_fechamento": 39.23
+      },
+      {
+        "mes": "2026-01",
+        "preco_fechamento": 45.5
+      },
+      {
+        "mes": "2026-02",
+        "preco_fechamento": 46.78
+      },
+      {
+        "mes": "2026-03",
+        "preco_fechamento": 43.48
+      },
+      {
+        "mes": "2026-04",
+        "preco_fechamento": 43.19
+      },
+      {
+        "mes": "2026-05",
+        "preco_fechamento": 40.04
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 38.52
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 38.91
+      }
+    ]
+  },
+  {
+    "ticker": "BBDC4.SA",
+    "moeda": "BRL",
+    "preco_atual": 17.34,
+    "historico_12_meses": [
+      {
+        "mes": "2025-07",
+        "preco_fechamento": 15.53
+      },
+      {
+        "mes": "2025-08",
+        "preco_fechamento": 16.83
+      },
+      {
+        "mes": "2025-09",
+        "preco_fechamento": 17.69
+      },
+      {
+        "mes": "2025-10",
+        "preco_fechamento": 18.16
+      },
+      {
+        "mes": "2025-11",
+        "preco_fechamento": 19.65
+      },
+      {
+        "mes": "2025-12",
+        "preco_fechamento": 18.19
+      },
+      {
+        "mes": "2026-01",
+        "preco_fechamento": 21.31
+      },
+      {
+        "mes": "2026-02",
+        "preco_fechamento": 21.15
+      },
+      {
+        "mes": "2026-03",
+        "preco_fechamento": 19.17
+      },
+      {
+        "mes": "2026-04",
+        "preco_fechamento": 19.32
+      },
+      {
+        "mes": "2026-05",
+        "preco_fechamento": 17.7
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 17.2
+      },
+      {
+        "mes": "2026-06",
+        "preco_fechamento": 17.34
+      }
+    ]
+  }
+]
