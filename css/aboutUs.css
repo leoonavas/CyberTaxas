@@ -51,19 +51,14 @@ h1 span{
 .cards{
     display:flex;
     gap:20px;
-
     margin-top:50px;
 }
 
 .card{
     background:#0D0D0D;
-
     width:200px;
-
     padding:25px;
-
     border-radius:18px;
-
     transition:.3s;
 }
 
@@ -86,13 +81,9 @@ h1 span{
 
 .stats{
     margin-top:40px;
-
     background:#0D0D0D;
-
     border-radius:18px;
-
     padding:25px;
-
     display:flex;
     justify-content:space-between;
 }
@@ -107,22 +98,98 @@ h1 span{
 
 .right img{
     width:550px;
-
     animation:float 5s ease-in-out infinite;
 }
 
 @keyframes float{
+    0%{ transform:translateY(0); }
+    50%{ transform:translateY(-20px); }
+    100%{ transform:translateY(0); }
+}
 
-    0%{
-        transform:translateY(0);
-    }
+/* ========================= */
+/* MOBILE FINAL (3 CARDS CORRETOS) */
+/* ========================= */
+@media (max-width: 768px) {
 
-    50%{
-        transform:translateY(-20px);
-    }
+  /* REMOVE IMAGEM */
+  .right {
+    display: none;
+  }
 
-    100%{
-        transform:translateY(0);
-    }
+  /* LAYOUT */
+  .about {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 16px 30px; /* menos padding lateral = mais espaço pros cards */
+    text-align: center;
+  }
+
+  .left {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* TÍTULO */
+  h1 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  h1 span {
+    display: inline;
+  }
+
+  /* TEXTO */
+  .left p {
+    font-size: 14.5px;
+    line-height: 1.5;
+  }
+
+  /* ===== CARDS (AQUI ESTÁ O SEGREDO) ===== */
+  .cards {
+    display: flex;
+    gap: 10px; /* menor gap = mais espaço interno */
+    margin-top: 30px;
+  }
+
+  .card {
+    flex: 1;
+    min-width: 0; /* evita quebrar layout */
+    padding: 18px 12px; /* padding otimizado */
+    border-radius: 14px;
+  }
+
+  /* ÍCONE */
+  .icon {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+
+  /* TEXTOS AJUSTADOS PRA CABER 3 COLUNAS */
+  .card h3 {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  .card p {
+    font-size: 12.5px;
+    line-height: 1.4;
+  }
+
+  /* STATS */
+  .stats {
+    margin-top: 30px;
+    padding: 18px;
+    gap: 8px;
+  }
+
+  .stats h2 {
+    font-size: 14px;
+  }
+
+  .stats span {
+    font-size: 11px;
+  }
 
 }
