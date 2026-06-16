@@ -7,7 +7,6 @@
     -apple-system,
     BlinkMacSystemFont,
     "SF Pro Display",
-    "SF Pro",
     "Segoe UI",
     Roboto,
     sans-serif;
@@ -22,39 +21,30 @@ body {
 
 body {
   background-color: #050505;
-
   color: #ffffff;
   position: relative;
 }
 
+/* GLOW */
 .bg-glow {
   position: absolute;
-
   width: 700px;
   height: 700px;
-
   left: -180px;
   top: -260px;
-
   background: rgba(255, 255, 255, 0.1);
-
   filter: blur(180px);
-
   opacity: 0.95;
-
   mix-blend-mode: screen;
-
   z-index: 3;
-
   pointer-events: none;
 }
 
+/* CONTAINER */
 .land-page {
   width: 100%;
   max-width: 1920px;
-
   margin: 0 auto;
-
   padding: 24px 40px;
 
   display: flex;
@@ -62,158 +52,129 @@ body {
   align-items: center;
 
   position: relative;
-
   z-index: 1;
 }
 
+/* HEADER */
 .header {
   width: 100%;
   height: 72px;
+
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-bottom: 24px;
+
   position: relative;
-  float: left;
-  left: -30px;
 }
 
+/* MENU CENTRAL */
 .links {
   display: flex;
   gap: 42px;
 
   position: absolute;
-
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .links a {
   color: rgba(255, 255, 255, 0.78);
-
   text-decoration: none;
-
   font-size: 16px;
   font-weight: 500;
 
-  transition:
-    opacity 0.25s ease,
-    transform 0.25s ease;
+  transition: 0.25s;
 }
 
 .links a:hover {
   opacity: 1;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  color: #ffffff;
 }
 
+/* LOGIN BUTTONS */
 .login-buttons {
+  position: absolute;
+  top: 12px;
+  right: 40px;
+
   display: flex;
   gap: 12px;
-  margin-left: auto;
-  z-index: 2;
 }
 
+/* BOTÕES */
 .btn {
   border: none;
-
   border-radius: 999px;
-
   cursor: pointer;
-
   font-weight: 600;
 
-  transition:
-    transform 0.25s ease,
-    background 0.25s ease,
-    opacity 0.25s ease;
+  transition: 0.25s;
 }
 
 .btn:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .btn-primary {
   background: rgba(255, 255, 255, 0.06);
-
   border: 1px solid rgba(255, 255, 255, 0.08);
-
   color: white;
-
   padding: 12px 28px;
-
   font-size: 15px;
-
   backdrop-filter: blur(12px);
 }
 
 .btn-primary:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .btn-secondary {
   background: white;
-
   color: black;
-
   padding: 12px 28px;
-
   font-size: 15px;
+  margin-top: 5px;
 }
 
 .button {
   padding: 17px 42px;
-
   font-size: 18px;
-
   box-shadow: 0 10px 30px rgba(255, 255, 255, 0.08);
+  
 }
 
-/* ==========================================================================
-   HERO TEXT
-   ========================================================================== */
-
+/* HERO */
 .main-brand {
   text-align: center;
-
   max-width: 880px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-
   gap: 18px;
 
-  margin-bottom: 10px;
-
+  margin-top: 40px;
   position: relative;
-
   z-index: 5;
 }
 
 .headline {
   font-size: 58px;
-
   font-weight: 650;
-
   letter-spacing: -2.5px;
-
   line-height: 1.05;
-
-  max-width: 900px;
 }
 
 .subheadline {
   color: #8a8a8e;
-
   font-size: 21px;
-
   line-height: 1.45;
-
   max-width: 680px;
-
-  font-weight: 400;
 }
 
+/* VISUAL */
 .visual-composition {
   width: 100%;
   max-width: 1400px;
@@ -225,15 +186,14 @@ body {
   align-items: center;
 
   position: relative;
-
-  margin-top: -80px;
+  margin-top: -120px;
 
   perspective: 1400px;
 }
 
+/* VIDEO */
 .terra-video {
   position: absolute;
-
   width: 740px;
   height: 740px;
 
@@ -242,17 +202,16 @@ body {
   transform: translate(-50%, -42%);
 
   z-index: 1;
-
   pointer-events: none;
 }
 
 .coin-video {
   width: 100%;
   height: 100%;
-
   object-fit: contain;
 }
 
+/* CARDS */
 .floating-card {
   position: absolute;
 
@@ -260,7 +219,6 @@ body {
   height: 205px;
 
   padding: 28px 24px;
-
   border-radius: 30px;
 
   background: linear-gradient(
@@ -279,16 +237,12 @@ body {
     inset 0 1px 0 rgba(255, 255, 255, 0.05);
 
   z-index: 4;
-
   overflow: hidden;
 }
 
-/* Reflexo interno premium */
 .floating-card::before {
   content: "";
-
   position: absolute;
-
   inset: 0;
 
   background: linear-gradient(
@@ -296,110 +250,45 @@ body {
     rgba(255, 255, 255, 0.12),
     transparent 30%
   );
-
-  pointer-events: none;
 }
 
-/* ==========================================================================
-   POSICIONAMENTO DOS CARDS
-   ========================================================================== */
-
+/* POSIÇÃO CARDS */
 .card-left {
   left: 15%;
-
   transform: rotateY(14deg) rotateX(4deg);
-
   animation: floatLeft 6s ease-in-out infinite;
 }
 
 .card-right {
   right: 15%;
-
   transform: rotateY(-14deg) rotateX(4deg);
-
   animation: floatRight 6s ease-in-out infinite;
-
   animation-delay: 3s;
 }
 
-/* ==========================================================================
-   CARD CONTENT
-   ========================================================================== */
-
+/* CARD CONTENT */
 .card-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
   margin-bottom: 24px;
 }
 
 .card-title {
   color: rgba(255, 255, 255, 0.52);
-
   font-size: 15px;
-
-  font-weight: 500;
-}
-
-.card-arrow-btn {
-  width: 28px;
-  height: 28px;
-
-  border: none;
-
-  border-radius: 50%;
-
-  background: white;
-
-  color: black;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  cursor: pointer;
 }
 
 .card-number {
   font-size: 54px;
-
   font-weight: 650;
-
-  letter-spacing: -2px;
-
-  margin-bottom: 24px;
 }
 
-.progress-bar {
-  width: 100%;
-  height: 5px;
-
-  border-radius: 999px;
-
-  background: rgba(255, 255, 255, 0.1);
-
-  overflow: hidden;
-}
-
-.progress-fill {
-  height: 100%;
-
-  background: white;
-
-  border-radius: inherit;
-}
-
-/* ==========================================================================
-   ANIMAÇÕES
-   ========================================================================== */
-
+/* ANIMAÇÕES */
 @keyframes floatLeft {
   0%,
   100% {
-    transform: translateY(0px) rotateY(14deg) rotateX(4deg);
+    transform: translateY(0) rotateY(14deg) rotateX(4deg);
   }
-
   50% {
     transform: translateY(-14px) rotateY(14deg) rotateX(4deg);
   }
@@ -408,44 +297,40 @@ body {
 @keyframes floatRight {
   0%,
   100% {
-    transform: translateY(0px) rotateY(-14deg) rotateX(4deg);
+    transform: translateY(0) rotateY(-14deg) rotateX(4deg);
   }
-
   50% {
     transform: translateY(-14px) rotateY(-14deg) rotateX(4deg);
   }
 }
 
-/* ==========================================================================
-   RESPONSIVIDADE
-   ========================================================================== */
-
-@media (max-width: 1200px) {
-  .headline {
-    font-size: 50px;
-  }
-
-  .terra-video {
-    width: 620px;
-    height: 620px;
-  }
-
-  .card-left {
-    left: 10%;
-  }
-
-  .card-right {
-    right: 10%;
-  }
-}
-
+/* RESPONSIVO */
 @media (max-width: 980px) {
   body {
     overflow-y: auto;
   }
 
-  .links {
-    display: none;
+  @media (max-width: 980px) {
+    .links {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+
+      width: 100%;
+    }
+
+    .links a {
+      font-size: 14px;
+    }
+    .login-buttons {
+      top: 50px;
+    }
   }
 
   .headline {
@@ -460,28 +345,6 @@ body {
     height: 700px;
     margin-top: -20px;
   }
-
-  .terra-video {
-    width: 520px;
-    height: 520px;
-
-    top: 40%;
-  }
-
-  .floating-card {
-    width: 240px;
-    height: 190px;
-  }
-
-  .card-left {
-    left: 5%;
-    top: 52%;
-  }
-
-  .card-right {
-    right: 5%;
-    top: 18%;
-  }
 }
 
 @media (max-width: 768px) {
@@ -489,13 +352,8 @@ body {
     padding: 20px;
   }
 
-  .header {
-    margin-bottom: 40px;
-  }
-
   .headline {
     font-size: 36px;
-    letter-spacing: -1.5px;
   }
 
   .subheadline {
@@ -503,34 +361,15 @@ body {
   }
 
   .visual-composition {
-    height: 650px;
-  }
-
-  .terra-video {
-    width: 430px;
-    height: 430px;
-
-    top: 42%;
+    flex-direction: column;
+    gap: 24px;
   }
 
   .floating-card {
     position: relative;
-
-    left: unset;
-    right: unset;
-    top: unset;
-
     transform: none !important;
-
     animation: none;
-
     width: 100%;
     max-width: 320px;
-  }
-
-  .visual-composition {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
   }
 }
