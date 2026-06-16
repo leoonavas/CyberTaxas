@@ -1,11 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
-// API estável e rápida para cotações de moedas em tempo real (AwesomeAPI)
+
 const URL_COTACAO = 'https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-USD,GBP-USD,JPY-USD,CNY-USD,CAD-USD,AUD-USD,ZAR-USD,MXN-USD,ARS-USD,KRW-USD,CHF-USD';
 const URL_LISTA_PAISES = 'https://flagcdn.com/en/codes.json';
 
-// Tabela oficial de referência do custo do Big Mac em suas respectivas moedas locais
+
 const tabelaBigMac = {
     "us": { nome: "US Dollar", sigla: "USD", simbolo: "$", preco_local: 5.69 },
     "br": { nome: "Brazilian Real", sigla: "BRL", simbolo: "R$", preco_local: 23.90 },
@@ -42,14 +42,14 @@ async function executar() {
             buscarDadosAPI(URL_COTACAO).catch(() => ({}))
         ]);
 
-        // Mapeia quanto de moeda local equivale a 1 USD
+        
         const conversaoDiretaUSD = { "USD": 1.0 };
         
         if (cotacoes) {
-            // USDBRL traz direto quantos R$ vale 1 USD (ex: 5.25)
+            
             if (cotacoes.USDBRL) conversaoDiretaUSD["BRL"] = parseFloat(cotacoes.USDBRL.bid);
             
-            // EURUSD traz quantos USD vale 1 Euro (ex: 1.08). Para saber quantos Euros vale 1 USD, fazemos 1 / taxa
+            
             if (cotacoes.EURUSD) conversaoDiretaUSD["EUR"] = parseFloat((1 / parseFloat(cotacoes.EURUSD.bid)).toFixed(4));
             if (cotacoes.GBPUSD) conversaoDiretaUSD["GBP"] = parseFloat((1 / parseFloat(cotacoes.GBPUSD.bid)).toFixed(4));
             if (cotacoes.JPYUSD) conversaoDiretaUSD["JPY"] = parseFloat((1 / parseFloat(cotacoes.JPYUSD.bid)).toFixed(4));
@@ -58,7 +58,7 @@ async function executar() {
             if (cotacoes.AUDUSD) conversaoDiretaUSD["AUD"] = parseFloat((1 / parseFloat(cotacoes.AUDUSD.bid)).toFixed(4));
             if (cotacoes.CHFUSD) conversaoDiretaUSD["CHF"] = parseFloat((1 / parseFloat(cotacoes.CHFUSD.bid)).toFixed(4));
             
-            // Valores de mercado de referência estável para as demais moedas do Índice
+            
             conversaoDiretaUSD["ZAR"] = 18.45;
             conversaoDiretaUSD["MXN"] = 17.20;
             conversaoDiretaUSD["ARS"] = 900.00;
@@ -79,10 +79,10 @@ async function executar() {
             };
 
             const precoLocal = dadosMac.preco_local;
-            // Pega o valor correspondente de quanto 1 USD vale nessa moeda
+            
             const taxaCambioInversa = conversaoDiretaUSD[dadosMac.sigla] || 1.0;
             
-            // Calcula o preço do Big Mac convertido para USD
+            
             const precoEmUSD = precoLocal / taxaCambioInversa;
 
             resultadoFinal.push({
@@ -92,7 +92,7 @@ async function executar() {
                     nome: dadosMac.nome,
                     sigla: dadosMac.sigla,
                     simbolo: dadosMac.simbolo,
-                    valor_em_dolar: taxaCambioInversa // 1 Dólar equivale a X unidades desta moeda
+                    valor_em_dolar: taxaCambioInversa 
                 },
                 custo_bigmac: {
                     na_moeda_local: `${dadosMac.simbolo} ${precoLocal.toFixed(2)}`,

@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-// Lista de tickers (símbolos) de ações famosas para monitorar
-// Ex: AAPL (Apple), MSFT (Microsoft), PETR4.SA (Petrobras), VALE3.SA (Vale)
+
+
 const TICKERS = [
     'AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 
     'PETR4.SA', 'VALE3.SA', 'ITUB4.SA', 'BBDC4.SA'
@@ -11,14 +11,14 @@ const TICKERS = [
 async function obterHistoricoAcoes() {
     console.log('📈 Iniciando busca de dados das ações no Yahoo Finance...');
     
-    // Define o período dos últimos 12 meses em Unix Timestamp
+    
     const hoje = Math.floor(Date.now() / 1000);
     const umAnoAtras = hoje - (365 * 24 * 60 * 60);
 
     const resultadoFinal = [];
 
     for (const ticker of TICKERS) {
-        // API pública do Yahoo Finance para dados históricos (Query v8)
+        
         const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?period1=${umAnoAtras}&period2=${hoje}&interval=1mo&events=history`;
 
         try {
@@ -44,13 +44,13 @@ async function obterHistoricoAcoes() {
             const fechamentos = chartData.indicators?.quote?.[0]?.close || [];
             const moeda = chartData.meta?.currency || 'USD';
 
-            // Monta o histórico dos últimos 12 meses filtrando valores nulos
+            
             const historico12Meses = [];
             
             timestamps.forEach((timestamp, index) => {
                 const preco = fechamentos[index];
                 if (preco !== null && preco !== undefined) {
-                    const dataFormatada = new Date(timestamp * 1000).toISOString().substring(0, 7); // Formato YYYY-MM
+                    const dataFormatada = new Date(timestamp * 1000).toISOString().substring(0, 7); 
                     historico12Meses.push({
                         mes: dataFormatada,
                         preco_fechamento: parseFloat(preco.toFixed(2))
@@ -58,7 +58,7 @@ async function obterHistoricoAcoes() {
                 }
             });
 
-            // Pega o preço atual mais recente
+            
             const precoAtual = historico12Meses.length > 0 ? historico12Meses[historico12Meses.length - 1].preco_fechamento : "N/A";
 
             resultadoFinal.push({
@@ -73,7 +73,7 @@ async function obterHistoricoAcoes() {
         }
     }
 
-    // Grava o arquivo JSON final
+    
     try {
         const destino = path.join(__dirname, 'acoes-valores.json');
         fs.writeFileSync(destino, JSON.stringify(resultadoFinal, null, 2), 'utf-8');

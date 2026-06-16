@@ -239,7 +239,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Centraliza horizontalmente */
+    align-items: center; 
 
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);

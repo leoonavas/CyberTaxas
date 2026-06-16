@@ -10,7 +10,7 @@ async function gerarJsonReal() {
         if (!response.ok) throw new Error(`Erro: ${response.status}`);
         const dadosPaises = await response.json();
 
-        // 📊 Banco de dados real (Valores consolidados do Banco Mundial / PNUD / FMI)
+        
         const bancoDadosReal = {
             "us": { pib: "27.36T USD", idh: 0.938, pib_per_capita: "80,300 USD", inflacao: "3.4%", moeda: "USD" },
             "cn": { pib: "17.79T USD", idh: 0.788, pib_per_capita: "12,600 USD", inflacao: "0.2%", moeda: "CNY" },
@@ -36,14 +36,14 @@ async function gerarJsonReal() {
             "pe": { pib: "267B USD", idh: 0.762, pib_per_capita: "7,700 USD", inflacao: "3.4%", moeda: "PEN" },
             "ve": { pib: "97B USD", idh: 0.699, pib_per_capita: "3,500 USD", inflacao: "189.8%", moeda: "VED" },
             
-            // 🇨🇩 Correção Factual: República Democrática do Congo (Congo-Kinshasa)
+            
             "cd": { pib: "66.3B USD", idh: 0.479, pib_per_capita: "650 USD", inflacao: "19.9%", moeda: "CDF" },
             
-            // 🇨🇬 Correção Factual: República do Congo (Congo-Brazzaville)
+            
             "cg": { pib: "15.3B USD", idh: 0.593, pib_per_capita: "2,500 USD", inflacao: "3.5%", moeda: "XAF" }
         };
 
-        // Classificação macroeconômica padrão baseada em faixas reais para os demais países menores/regiões
+        
         const obterDadosPorFaixaEtaria = (codigo) => {
             const padraoMundial = {
                 alta: { pib: "45B USD", idh: 0.895, pib_per_capita: "32,000 USD", inflacao: "3.2%", moeda: "USD" },
@@ -52,11 +52,11 @@ async function gerarJsonReal() {
                 baixa: { pib: "4.5B USD", idh: 0.498, pib_per_capita: "850 USD", inflacao: "8.2%", moeda: "USD" }
             };
             
-            // Países africanos de baixa renda ou ilhas pequenas que não foram detalhados acima
+            
             if (["bi", "cf", "ne", "so", "ss", "td", "sl", "mz", "mw", "mg"].includes(codigo)) return padraoMundial.baixa;
             if (["ch", "no", "se", "fi", "nl", "be", "at", "dk", "ie", "nz"].includes(codigo)) return { ...padraoMundial.alta, idh: 0.961, moeda: "EUR" };
             
-            return padraoMundial.media_alta; // Fallback estrutural realista
+            return padraoMundial.media_alta; 
         };
 
         const listaFinalPaises = [];
@@ -71,7 +71,7 @@ async function gerarJsonReal() {
                 .replace(/\s+/g, '_')
                 .replace(/[^a-z0-9_]/g, '');
 
-            // Busca os dados exatos do banco real ou do tier correspondente
+            
             const dadosEco = bancoDadosReal[codigo] || obtenerDadosPorFaixaEtaria(codigo);
 
             listaFinalPaises.push({
