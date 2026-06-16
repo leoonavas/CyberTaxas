@@ -6,7 +6,7 @@
 }
 
 body{
-    background:#000000;
+    background:#050505;
     color:white;
 }
 
@@ -99,6 +99,7 @@ h1 span{
 .right img{
     width:550px;
     animation:float 5s ease-in-out infinite;
+    background: #050505;
 }
 
 @keyframes float{
