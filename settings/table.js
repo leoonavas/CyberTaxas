@@ -1,16 +1,16 @@
 const fs = require('fs');
 const path = require('path');
 
-// APIs Oficiais e Estáveis (Banco Mundial e FlagCDN)
+
 const URL_LISTA_PAISES = 'https://flagcdn.com/en/codes.json';
 const URL_PIB = 'https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?format=json&per_page=400&mrnev=1';
 const URL_PER_CAPITA = 'https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.CD?format=json&per_page=400&mrnev=1';
 const URL_INFLACAO = 'https://api.worldbank.org/v2/country/all/indicator/FP.CPI.TOTL.ZG?format=json&per_page=400&mrnev=1';
 
-// Mudança para uma API de IDH baseada em ISO3 estruturada e estável do PNUD/HDRO
+
 const URL_IDH = 'https://hdrapps.undp.org/api/v1/hdi'; 
 
-// Dicionário de moedas baseado no ISO de 2 letras
+
 const dicionarioMoedas = {
     "us": "USD", "br": "BRL", "cn": "CNY", "de": "EUR", "fr": "EUR", "it": "EUR", "es": "EUR", "pt": "EUR", 
     "gb": "GBP", "jp": "JPY", "in": "INR", "ca": "CAD", "au": "AUD", "za": "ZAR", "ru": "RUB", "mx": "MXN", 
@@ -65,14 +65,14 @@ async function executar() {
         const mapaIDH = {};
         const deIso3ParaIso2 = {};
 
-        // 1. Criar tabela de conversão ISO3 -> ISO2 usando os metadados do Banco Mundial
-        // E mapear os dados econômicos padrão
+        
+        
         if (pibData[1]) {
             pibData[1].forEach(d => {
                 if (d.country && d.country.id) {
                     const iso2 = d.country.id.toLowerCase();
-                    // O Banco Mundial infelizmente não traz o ISO3 direto no indicador, 
-                    // mas podemos deduzir ou usar fallbacks conhecidos caso falte.
+                    
+                    
                     if (d.value) mapaPIB[iso2] = d.value;
                 }
             });
@@ -81,7 +81,7 @@ async function executar() {
         if (perCapitaData[1]) perCapitaData[1].forEach(d => { if(d.value) mapaPerCapita[d.country.id.toLowerCase()] = d.value; });
         if (inflacaoData[1]) inflacaoData[1].forEach(d => { if(d.value) mapaInflacao[d.country.id.toLowerCase()] = d.value; });
         
-        // Dicionário auxiliar manual para garantir conversão perfeita do IDH (ONU ISO3 -> FlagCDN ISO2)
+        
         const dicionarioIso3ParaIso2 = {
             "afg":"af", "ago":"ao", "alb":"al", "and":"ad", "are":"ae", "arg":"ar", "arm":"am", "aus":"au", "aut":"at", "aze":"az",
             "bdi":"bi", "bel":"be", "ben":"bj", "bfa":"bf", "bgd":"bd", "bgr":"bg", "bhr":"bh", "bhs":"bs", "bih":"ba", "blr":"by",
@@ -104,12 +104,12 @@ async function executar() {
             "uzb":"uz", "vct":"vc", "ven":"ve", "vnm":"vn", "vut":"vu", "wsm":"ws", "yem":"ye", "zaf":"za", "zmb":"zm", "zwe":"zw"
         };
 
-        // 2. Mapeamento do IDH Real usando a API estruturada do PNUD
+        
         if (idhData && idhData.data) {
             idhData.data.forEach(item => {
                 const iso3 = item.iso3 ? item.iso3.toLowerCase() : '';
                 const iso2 = dicionarioIso3ParaIso2[iso3];
-                // Pega o valor do IDH mais recente (geralmente o campo 'hdi' ou o valor do ano atual)
+                
                 if (iso2 && item.hdi_2022) { 
                     mapaIDH[iso2] = parseFloat(item.hdi_2022); 
                 } else if (iso2 && item.hdi) {
@@ -132,33 +132,33 @@ async function executar() {
 
             const moedaFinal = dicionarioMoedas[codigoIso2] || "USD";
 
-            // Captura o IDH real mapeado
+            
             let valorIDH = mapaIDH[codigoIso2] || null;
             
-            // Fallback matemático inteligente e dinâmico APENAS se a API falhar para o país
+            
             if (!valorIDH && mapaPerCapita[codigoIso2]) {
                 const renda = mapaPerCapita[codigoIso2];
-                // Fórmula de regressão aproximada baseada nos dados globais logarítmicos do IDH real
+                
                 valorIDH = 0.35 + 0.052 * Math.log(renda); 
                 if (valorIDH > 0.965) valorIDH = 0.965;
                 if (valorIDH < 0.380) valorIDH = 0.380;
             }
 
-            // Definição do IDH Final limpo, sem arredondamentos forçados em lote
+            
             const idhFinal = valorIDH ? parseFloat(valorIDH.toFixed(3)) : 0.650;
 
             listaFinalPaises.push({
                 pais: nomeOriginal,
                 caminho_bandeira: `imgs/${nomeFormatado}.png`,
                 pib: formatarPIB(mapaPIB[codigoIso2]),
-                idh: idhFinal, // Agora vai retornar valores dinâmicos e reais como 0.754, 0.912, etc.
+                idh: idhFinal, 
                 pib_per_capita: formatarPIBPerCapita(mapaPerCapita[codigoIso2]),
                 inflacao: formatarInflacao(mapaInflacao[codigoIso2]),
                 moeda: moedaFinal
             });
         }
 
-        // Ordena de A-Z
+        
         listaFinalPaises.sort((a, b) => a.pais.localeCompare(b.pais));
 
         const destino = path.join(__dirname, 'paises.json');

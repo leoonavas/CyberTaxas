@@ -239,7 +239,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Centraliza horizontalmente */
+    align-items: center; 
 
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -447,9 +447,9 @@ body {
         font-size: 13px;
     }
 }
-/* Card contêiner do Câmbio */
+
 .exchange-card {
-    background-color: #161616; /* Fundo do card igual às imagens anteriores */
+    background-color: #161616; 
     border: 1px solid #222222;
     border-radius: 8px;
     padding: 16px;
@@ -457,7 +457,7 @@ body {
     flex-direction: column;
 }
 
-/* Rótulo superior "Câmbio" */
+
 .exchange-card .card-label {
     font-size: 14px;
     color: #8a8a8a;
@@ -465,17 +465,17 @@ body {
     font-weight: 500;
 }
 
-/* Formulário esticado verticalmente */
+
 .exchange-form {
     display: flex;
     flex-direction: column;
-    gap: 12px; /* Espaçamento perfeito entre o input e o botão */
+    gap: 12px; 
     width: 100%;
 }
 
-/* Estilização do Input (Campo de Texto) */
+
 .exchange-input {
-    background-color: #222222; /* Tom mais claro de preto para o fundo */
+    background-color: #222222; 
     border: 1px solid #2d2d2d;
     border-radius: 8px;
     color: #ffffff;
@@ -488,23 +488,23 @@ body {
     transition: border-color 0.2s ease;
 }
 
-/* Estilo do texto interno (Placeholder) */
+
 .exchange-input::placeholder {
     color: #8a8a8a;
     font-weight: 400;
 }
 
-/* Efeito sutil ao clicar no input */
+
 .exchange-input:focus {
     border-color: #00a352;
 }
 
-/* Estilização do Botão Verde */
+
 .exchange-btn {
-    background-color: #00a352; /* Verde idêntico ao da imagem */
-    color: #000000; /* Texto escuro para contraste profissional */
+    background-color: #00a352; 
+    color: #000000; 
     border: none;
-    border-radius: 12px; /* Bordas um pouco mais arredondadas como no mockup */
+    border-radius: 12px; 
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -514,19 +514,19 @@ body {
     transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
-/* Efeitos de passar o mouse e clicar no botão */
+
 .exchange-btn:hover {
-    background-color: #00cc66; /* Verde levemente mais brilhante no hover */
+    background-color: #00cc66; 
 }
 
 .exchange-btn:active {
-    transform: scale(0.99); /* Feedback de clique */
+    transform: scale(0.99); 
 }
 
-/* Esconde ou estiliza o resultado caso não vá usar o card ao lado */
+
 .exchange-result {
     font-size: 12px;
     color: #666666;
     margin: 4px 0 0 0;
-    display: none; /* Deixei oculto por padrão, pois na imagem o resultado fica no 4º card */
+    display: none; 
 }
