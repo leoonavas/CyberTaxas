@@ -35,10 +35,10 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --color-primary-text: #1a1a1a;
-        --color-link-dimmed: rgba(0, 0, 0, 0.6);
-        --border-secondary: 1px solid rgba(0, 0, 0, 0.15);
-        --border-secondary-hover: rgba(0, 0, 0, 0.05);
+        --color-primary-text: #FFFFFF;
+        --color-link-dimmed: rgba(255, 255, 255, 0.6);
+        --border-secondary: 1px solid rgba(255, 255, 255, 0.25);
+        --border-secondary-hover: rgba(255, 255, 255, 0.1);
         
         --card-bg: rgba(255, 255, 255, 0.75);
         --card-border: 1px solid rgba(0, 0, 0, 0.08);
@@ -57,11 +57,11 @@
         --card-qr-bg: #ffffff;
     }
     
-    .btn-primary {
+    .login-container .btn-primary {
         background-color: var(--color-dark-bg) !important;
         color: #ffffff !important;
     }
-    .btn-primary:hover {
+    .login-container .btn-primary:hover {
         background-color: #ffffff !important;
         color: var(--color-dark-bg) !important;
         border: 1px solid rgba(0, 0, 0, 0.15);
