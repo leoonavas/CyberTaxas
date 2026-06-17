@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 :root {
     
     --color-primary-bg: #FFFFFF;
@@ -20,17 +19,35 @@
     --font-main: "Plus Jakarta Sans", sans-serif;
     --transition-fast: all 0.3s ease;
 }
-=======
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 
 * {
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background:#050505;
     color:white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.coin-video {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    pointer-events: none;
 }
 
 .about{
@@ -131,9 +148,6 @@ h1 span{
     100%{ transform:translateY(0); }
 }
 
-/* ========================= */
-/* MOBILE FINAL (3 CARDS CORRETOS) */
-/* ========================= */
 @media (max-width: 768px) {
 
   /* REMOVE IMAGEM */
@@ -150,27 +164,14 @@ h1 span{
   }
 
   .left {
-=======
-body, html {
-    margin: 0;
-    padding: 0;
->>>>>>> a01979388dd75987883e92ff97442fc62e1016c0
     width: 100%;
     height: 100%;
     overflow: hidden;
-<<<<<<< HEAD
     font-family: var(--font-main);
-    background-color: transparent; 
-}
+    background-color: transparent;
+  }
 
-=======
-    font-family: "Plus Jakarta Sans", sans-serif;
-    background-color: transparent; 
-}
-
-
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
-.coin-video {
+  .coin-video {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -179,28 +180,20 @@ body, html {
     z-index: -1; 
     transform: translate(-50%, -50%);
     object-fit: cover;
+  }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 .page-container {
     position: relative;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
     padding: 20px 80px;
     z-index: 1;
     background: transparent;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 .header {
     display: flex;
     justify-content: space-between;
@@ -213,49 +206,34 @@ body, html {
     font-size: 24px;
     font-weight: 800;
     text-decoration: none;
-<<<<<<< HEAD
     color: var(--color-primary-text);
 }
 
 .brand-logo span {
     color: var(--color-brand-accent); 
-=======
-    color: #000000;
 }
 
-.brand-logo span {
-    color: rgb(56, 255, 189); 
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex: 1;
 }
 
 .links a {
-    margin: 0 20px;
+    margin: 0;
     text-decoration: none;
-<<<<<<< HEAD
     color: var(--color-link-dimmed); 
     font-weight: 500;
     transition: var(--transition-fast);
-=======
-    color: rgba(0, 0, 0, 0.6); 
-    font-weight: 500;
-    transition: all 0.3s ease;
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 }
 
 .links a:hover, 
 .links a.active {
-<<<<<<< HEAD
     color: var(--color-primary-text);
     font-weight: 600;
 }
 
-=======
-    color: #000000;
-    font-weight: 600;
-}
-
-
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 .login-buttons {
     display: flex;
     gap: 15px;
@@ -268,7 +246,6 @@ body, html {
     font-weight: 600;
     cursor: pointer;
     border: none;
-<<<<<<< HEAD
     transition: var(--transition-fast);
 }
 
@@ -295,75 +272,59 @@ body, html {
     box-shadow: var(--shadow-primary-hover);
 }
 
-=======
-    transition: all 0.3s ease;
-}
-
-
-.btn-secondary {
-    background-color: transparent;
-    color: #000000;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-}
-
-.btn-secondary:hover {
-    background-color: rgba(0, 0, 0, 0.04);
-    border-color: rgba(0, 0, 0, 0.3);
-}
-
-
-.btn-primary {
-    background-color: #000000;
-    color: #ffffff;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-}
-
-.btn-primary:hover {
-    background-color: #1a1a1a;
-    transform: translateY(-1px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
-}
-
-
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
-.content-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end; 
-    width: 100%;
-    margin-bottom: 60px; 
-}
-
 .about-title {
-    font-size: 64px;
-    font-weight: 800;
-<<<<<<< HEAD
+    font-size: clamp(3.2rem, 6vw, 5rem);
+    font-weight: 700;
     color: var(--color-primary-text);
-=======
-    color: #000000;
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
     margin: 0;
-    line-height: 1;
-    letter-spacing: -0.02em;
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+    max-width: 720px;
+    margin-top: 160px;
 }
 
 .about-description {
-    max-width: 450px;
-    font-size: 16px;
-    line-height: 1.6;
-<<<<<<< HEAD
+    max-width: 520px;
     color: var(--color-primary-text); 
-=======
-    color: #000000; 
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
-    font-weight: 500;  
-    letter-spacing: -0.01em;
-    margin: 0;
+    margin-top: 20px;
+    margin-left: 0;
 }
-<<<<<<< HEAD
+ 
+.content-footer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 220px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
 
-=======
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
+@media (max-width: 1024px) {
+    .page-container {
+        padding: 24px 40px;
+    }
+
+    .content-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 40px;
+    }
+
+    .about-title {
+        font-size: clamp(3rem, 7vw, 5rem);
+    }
+
+    .about-description {
+        max-width: 100%;
+    }
+}
+
 .scroll-indicator {
     position: absolute;
     bottom: 20px;
@@ -371,11 +332,7 @@ body, html {
     transform: translateX(-50%);
     font-size: 11px;
     font-weight: 600;
-<<<<<<< HEAD
     color: var(--color-scroll-indicator);
-=======
-    color: rgba(0, 0, 0, 0.5);
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-align: center;
@@ -392,10 +349,6 @@ body, html {
     40% { transform: translateY(-5px); }
     60% { transform: translateY(-3px); }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 @media (max-width: 768px) {
     .page-container {
         padding: 20px;
