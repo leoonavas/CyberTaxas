@@ -1,0 +1,70 @@
+<!doctype html> 
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate | CyberTaxas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="css/donate.css" />
+  </head>
+  <body>
+
+    <img src="imgs/bg-tellus.png" alt="Background Cosmos" class="bg-image" />
+
+    <div class="page-container">
+      
+      <header class="header">
+        <div class="logo">
+          <a href="index.html" class="brand-logo">CyberTaxas</a>
+        </div>
+        <nav class="links">
+          <a href="aboutUs.html">About us</a>
+          <a href="buyMeAcoffe.html">Buy me a coffe</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <div class="login-buttons">
+          <a href="login.html">
+            <button class="btn btn-secondary">Login</button>
+          </a>
+          <a href="register.html">
+            <button class="btn btn-primary">Register</button>
+          </a>
+        </div>
+      </header>
+
+      <main class="contact-wrapper">
+        <div class="login-container">
+          <header class="form-header">
+            <h1 class="hero-title">Buy Me a Coffee ☕</h1>
+            <p class="hero-subtitle">Liked this project? Make a donation using Pix!</p>
+          </header>
+
+          <div class="donation-box">
+            <div class="qr-code-wrapper">
+              <img src="imgs/qr-code.png" alt="QR Code Pix" class="qr-code-img" />
+              <p class="qr-instruction">Abra o app do seu banco e aponte a câmera para o QR Code</p>
+            </div>
+
+            <div class="divider-or">
+              <span>ou</span>
+            </div>
+
+            <div class="pix-key-wrapper">
+              <label for="pix-key" class="form-label">Chave Pix (E-mail/Aleatória):</label>
+              <div class="pix-input-group">
+                <input type="text" id="pix-key" value="pix@cybertaxas.com" readonly />
+                <button type="button" class="btn btn-primary" onclick="copyPixKey()">Copiar</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </main>
+
+    </div>
+  </body>
+</html>
