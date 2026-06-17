@@ -26,7 +26,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #FFFFF;
+    --bg-color: #FFFFFF;
     --text-primary: #000000;
     --text-secondary: #636366;
     --text-links: rgba(0, 0, 0, 0.7);
