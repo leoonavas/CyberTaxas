@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberTaxas | IDH Dashboard</title>
+    <link rel="stylesheet" href="css/idh.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg-glow"> </div>
+
+    <main class="app-container">
+      
+      <header class="navbar-tabs">
+        <div class="tabs-left">
+         <button class="tab-btn active" onclick="window.location.href='idh.html'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect width="7" height="7" x="3" y="3" rx="1"/>
+                    <rect width="7" height="7" x="14" y="3" rx="1"/>
+                    <rect width="7" height="7" x="14" y="14" rx="1"/>
+                    <rect width="7" height="7" x="3" y="14" rx="1"/>
+                </svg>
+                IDH
+            </button>
+
+            <button class="tab-btn" onclick="window.location.href='actions.html'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M3 3v18h18"/>
+                    <path d="m19 9-5 5-4-4-3 3"/>
+                </svg>
+                Bolsas/Ações
+            </button>
+
+            <button class="tab-btn" onclick="window.location.href='coins.html'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 6v12"/>
+                    <path d="M16 8H11a2 2 0 0 0 0 4h2a2 2 0 0 1 0 4H8"/>
+                </svg>
+                Coins
+            </button>
+        </div>
+          
+      </header>
+
+      <section class="search-section">
+        <div class="input-wrapper">
+          <input type="text" placeholder="Digite o nome de um país..." />
+        </div>
+      </section>
+
+      <section class="ranking-list" aria-label="Ranking de IDH">
+
+        <div class="ranking-section">
+          <div id="highest-idh-list" class="  "></div>
+        </div>
+
+      </section>
+    </main>
+    <script src="js/idh.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,3530 @@
+[
+  {
+    "pais": "Afghanistan",
+    "codigo_iso": "AF",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Åland Islands",
+    "codigo_iso": "AX",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Albania",
+    "codigo_iso": "AL",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Algeria",
+    "codigo_iso": "DZ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "American Samoa",
+    "codigo_iso": "AS",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Andorra",
+    "codigo_iso": "AD",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Angola",
+    "codigo_iso": "AO",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Anguilla",
+    "codigo_iso": "AI",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Antarctica",
+    "codigo_iso": "AQ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Antigua and Barbuda",
+    "codigo_iso": "AG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Argentina",
+    "codigo_iso": "AR",
+    "moeda": {
+      "nome": "Argentine Peso",
+      "sigla": "ARS",
+      "simbolo": "$",
+      "valor_em_dolar": 900
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 3250.00",
+      "em_usd": 3.61
+    }
+  },
+  {
+    "pais": "Armenia",
+    "codigo_iso": "AM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Aruba",
+    "codigo_iso": "AW",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Australia",
+    "codigo_iso": "AU",
+    "moeda": {
+      "nome": "Australian Dollar",
+      "sigla": "AUD",
+      "simbolo": "A$",
+      "valor_em_dolar": 1.4226
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "A$ 7.50",
+      "em_usd": 5.27
+    }
+  },
+  {
+    "pais": "Austria",
+    "codigo_iso": "AT",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Azerbaijan",
+    "codigo_iso": "AZ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Bahamas",
+    "codigo_iso": "BS",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Bahrain",
+    "codigo_iso": "BH",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Bangladesh",
+    "codigo_iso": "BD",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Barbados",
+    "codigo_iso": "BB",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Belarus",
+    "codigo_iso": "BY",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Belgium",
+    "codigo_iso": "BE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Belize",
+    "codigo_iso": "BZ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Benin",
+    "codigo_iso": "BJ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Bermuda",
+    "codigo_iso": "BM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Bhutan",
+    "codigo_iso": "BT",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Bolivia",
+    "codigo_iso": "BO",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Bosnia and Herzegovina",
+    "codigo_iso": "BA",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Botswana",
+    "codigo_iso": "BW",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Bouvet Island",
+    "codigo_iso": "BV",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Brazil",
+    "codigo_iso": "BR",
+    "moeda": {
+      "nome": "Brazilian Real",
+      "sigla": "BRL",
+      "simbolo": "R$",
+      "valor_em_dolar": 5.1884
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "R$ 23.90",
+      "em_usd": 4.61
+    }
+  },
+  {
+    "pais": "British Indian Ocean Territory",
+    "codigo_iso": "IO",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "British Virgin Islands",
+    "codigo_iso": "VG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Brunei",
+    "codigo_iso": "BN",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Bulgaria",
+    "codigo_iso": "BG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Burkina Faso",
+    "codigo_iso": "BF",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Burundi",
+    "codigo_iso": "BI",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Cambodia",
+    "codigo_iso": "KH",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Cameroon",
+    "codigo_iso": "CM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Canada",
+    "codigo_iso": "CA",
+    "moeda": {
+      "nome": "Canadian Dollar",
+      "sigla": "CAD",
+      "simbolo": "C$",
+      "valor_em_dolar": 1.3954
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "C$ 6.70",
+      "em_usd": 4.8
+    }
+  },
+  {
+    "pais": "Cape Verde",
+    "codigo_iso": "CV",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Caribbean Netherlands",
+    "codigo_iso": "BQ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Cayman Islands",
+    "codigo_iso": "KY",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Central African Republic",
+    "codigo_iso": "CF",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Chad",
+    "codigo_iso": "TD",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Chile",
+    "codigo_iso": "CL",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "China",
+    "codigo_iso": "CN",
+    "moeda": {
+      "nome": "Chinese Yuan",
+      "sigla": "CNY",
+      "simbolo": "¥",
+      "valor_em_dolar": 6.7658
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "¥ 25.00",
+      "em_usd": 3.7
+    }
+  },
+  {
+    "pais": "Christmas Island",
+    "codigo_iso": "CX",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Cocos (Keeling) Islands",
+    "codigo_iso": "CC",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Colombia",
+    "codigo_iso": "CO",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Comoros",
+    "codigo_iso": "KM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Cook Islands",
+    "codigo_iso": "CK",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Costa Rica",
+    "codigo_iso": "CR",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Côte d'Ivoire (Ivory Coast)",
+    "codigo_iso": "CI",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Croatia",
+    "codigo_iso": "HR",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Cuba",
+    "codigo_iso": "CU",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Curaçao",
+    "codigo_iso": "CW",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Cyprus",
+    "codigo_iso": "CY",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Czechia",
+    "codigo_iso": "CZ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Denmark",
+    "codigo_iso": "DK",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Djibouti",
+    "codigo_iso": "DJ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Dominica",
+    "codigo_iso": "DM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Dominican Republic",
+    "codigo_iso": "DO",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "DR Congo",
+    "codigo_iso": "CD",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Ecuador",
+    "codigo_iso": "EC",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Egypt",
+    "codigo_iso": "EG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "El Salvador",
+    "codigo_iso": "SV",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Equatorial Guinea",
+    "codigo_iso": "GQ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Eritrea",
+    "codigo_iso": "ER",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Estonia",
+    "codigo_iso": "EE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Eswatini (Swaziland)",
+    "codigo_iso": "SZ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Ethiopia",
+    "codigo_iso": "ET",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "European Union",
+    "codigo_iso": "EU",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Falkland Islands",
+    "codigo_iso": "FK",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Faroe Islands",
+    "codigo_iso": "FO",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Fiji",
+    "codigo_iso": "FJ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Finland",
+    "codigo_iso": "FI",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "France",
+    "codigo_iso": "FR",
+    "moeda": {
+      "nome": "Euro",
+      "sigla": "EUR",
+      "simbolo": "€",
+      "valor_em_dolar": 0.8657
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "€ 5.49",
+      "em_usd": 6.34
+    }
+  },
+  {
+    "pais": "French Guiana",
+    "codigo_iso": "GF",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "French Polynesia",
+    "codigo_iso": "PF",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "French Southern and Antarctic Lands",
+    "codigo_iso": "TF",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Gabon",
+    "codigo_iso": "GA",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Gambia",
+    "codigo_iso": "GM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Georgia",
+    "codigo_iso": "GE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Germany",
+    "codigo_iso": "DE",
+    "moeda": {
+      "nome": "Euro",
+      "sigla": "EUR",
+      "simbolo": "€",
+      "valor_em_dolar": 0.8657
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "€ 5.49",
+      "em_usd": 6.34
+    }
+  },
+  {
+    "pais": "Ghana",
+    "codigo_iso": "GH",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Gibraltar",
+    "codigo_iso": "GI",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Greece",
+    "codigo_iso": "GR",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Greenland",
+    "codigo_iso": "GL",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Grenada",
+    "codigo_iso": "GD",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Guadeloupe",
+    "codigo_iso": "GP",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Guam",
+    "codigo_iso": "GU",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Guatemala",
+    "codigo_iso": "GT",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Guernsey",
+    "codigo_iso": "GG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Guinea",
+    "codigo_iso": "GN",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Guinea-Bissau",
+    "codigo_iso": "GW",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Guyana",
+    "codigo_iso": "GY",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Haiti",
+    "codigo_iso": "HT",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Heard Island and McDonald Islands",
+    "codigo_iso": "HM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Honduras",
+    "codigo_iso": "HN",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Hong Kong",
+    "codigo_iso": "HK",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Hungary",
+    "codigo_iso": "HU",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Iceland",
+    "codigo_iso": "IS",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "India",
+    "codigo_iso": "IN",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Indonesia",
+    "codigo_iso": "ID",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Iran",
+    "codigo_iso": "IR",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Iraq",
+    "codigo_iso": "IQ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Ireland",
+    "codigo_iso": "IE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Isle of Man",
+    "codigo_iso": "IM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Israel",
+    "codigo_iso": "IL",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Italy",
+    "codigo_iso": "IT",
+    "moeda": {
+      "nome": "Euro",
+      "sigla": "EUR",
+      "simbolo": "€",
+      "valor_em_dolar": 0.8657
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "€ 5.49",
+      "em_usd": 6.34
+    }
+  },
+  {
+    "pais": "Jamaica",
+    "codigo_iso": "JM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Japan",
+    "codigo_iso": "JP",
+    "moeda": {
+      "nome": "Japanese Yen",
+      "sigla": "JPY",
+      "simbolo": "¥",
+      "valor_em_dolar": 160.316
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "¥ 450.00",
+      "em_usd": 2.81
+    }
+  },
+  {
+    "pais": "Jersey",
+    "codigo_iso": "JE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Jordan",
+    "codigo_iso": "JO",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Kazakhstan",
+    "codigo_iso": "KZ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Kenya",
+    "codigo_iso": "KE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Kiribati",
+    "codigo_iso": "KI",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Kosovo",
+    "codigo_iso": "XK",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Kuwait",
+    "codigo_iso": "KW",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Kyrgyzstan",
+    "codigo_iso": "KG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Laos",
+    "codigo_iso": "LA",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Latvia",
+    "codigo_iso": "LV",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Lebanon",
+    "codigo_iso": "LB",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Lesotho",
+    "codigo_iso": "LS",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Liberia",
+    "codigo_iso": "LR",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Libya",
+    "codigo_iso": "LY",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Liechtenstein",
+    "codigo_iso": "LI",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Lithuania",
+    "codigo_iso": "LT",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Luxembourg",
+    "codigo_iso": "LU",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Macau",
+    "codigo_iso": "MO",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Madagascar",
+    "codigo_iso": "MG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Malawi",
+    "codigo_iso": "MW",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Malaysia",
+    "codigo_iso": "MY",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Maldives",
+    "codigo_iso": "MV",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Mali",
+    "codigo_iso": "ML",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Malta",
+    "codigo_iso": "MT",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Marshall Islands",
+    "codigo_iso": "MH",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Martinique",
+    "codigo_iso": "MQ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Mauritania",
+    "codigo_iso": "MR",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Mauritius",
+    "codigo_iso": "MU",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Mayotte",
+    "codigo_iso": "YT",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Mexico",
+    "codigo_iso": "MX",
+    "moeda": {
+      "nome": "Mexican Peso",
+      "sigla": "MXN",
+      "simbolo": "$",
+      "valor_em_dolar": 17.2
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 89.00",
+      "em_usd": 5.17
+    }
+  },
+  {
+    "pais": "Micronesia",
+    "codigo_iso": "FM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Moldova",
+    "codigo_iso": "MD",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Monaco",
+    "codigo_iso": "MC",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Mongolia",
+    "codigo_iso": "MN",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Montenegro",
+    "codigo_iso": "ME",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Montserrat",
+    "codigo_iso": "MS",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Morocco",
+    "codigo_iso": "MA",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Mozambique",
+    "codigo_iso": "MZ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Myanmar",
+    "codigo_iso": "MM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Namibia",
+    "codigo_iso": "NA",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Nauru",
+    "codigo_iso": "NR",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Nepal",
+    "codigo_iso": "NP",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Netherlands",
+    "codigo_iso": "NL",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "New Caledonia",
+    "codigo_iso": "NC",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "New Zealand",
+    "codigo_iso": "NZ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Nicaragua",
+    "codigo_iso": "NI",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Niger",
+    "codigo_iso": "NE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Nigeria",
+    "codigo_iso": "NG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Niue",
+    "codigo_iso": "NU",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Norfolk Island",
+    "codigo_iso": "NF",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "North Korea",
+    "codigo_iso": "KP",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "North Macedonia",
+    "codigo_iso": "MK",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Northern Mariana Islands",
+    "codigo_iso": "MP",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Norway",
+    "codigo_iso": "NO",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Oman",
+    "codigo_iso": "OM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Pakistan",
+    "codigo_iso": "PK",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Palau",
+    "codigo_iso": "PW",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Palestine",
+    "codigo_iso": "PS",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Panama",
+    "codigo_iso": "PA",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Papua New Guinea",
+    "codigo_iso": "PG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Paraguay",
+    "codigo_iso": "PY",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Peru",
+    "codigo_iso": "PE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Philippines",
+    "codigo_iso": "PH",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Pitcairn Islands",
+    "codigo_iso": "PN",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Poland",
+    "codigo_iso": "PL",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Portugal",
+    "codigo_iso": "PT",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Puerto Rico",
+    "codigo_iso": "PR",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Qatar",
+    "codigo_iso": "QA",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Republic of the Congo",
+    "codigo_iso": "CG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Réunion",
+    "codigo_iso": "RE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Romania",
+    "codigo_iso": "RO",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Russia",
+    "codigo_iso": "RU",
+    "moeda": {
+      "nome": "Russian Ruble",
+      "sigla": "RUB",
+      "simbolo": "₽",
+      "valor_em_dolar": 91.5
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "₽ 135.00",
+      "em_usd": 1.48
+    }
+  },
+  {
+    "pais": "Rwanda",
+    "codigo_iso": "RW",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Saint Barthélemy",
+    "codigo_iso": "BL",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Saint Helena, Ascension and Tristan da Cunha",
+    "codigo_iso": "SH",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Saint Kitts and Nevis",
+    "codigo_iso": "KN",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Saint Lucia",
+    "codigo_iso": "LC",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Saint Martin",
+    "codigo_iso": "MF",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Saint Pierre and Miquelon",
+    "codigo_iso": "PM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Saint Vincent and the Grenadines",
+    "codigo_iso": "VC",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Samoa",
+    "codigo_iso": "WS",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "San Marino",
+    "codigo_iso": "SM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "São Tomé and Príncipe",
+    "codigo_iso": "ST",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Saudi Arabia",
+    "codigo_iso": "SA",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Senegal",
+    "codigo_iso": "SN",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Serbia",
+    "codigo_iso": "RS",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Seychelles",
+    "codigo_iso": "SC",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Sierra Leone",
+    "codigo_iso": "SL",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Singapore",
+    "codigo_iso": "SG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Sint Maarten",
+    "codigo_iso": "SX",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Slovakia",
+    "codigo_iso": "SK",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Slovenia",
+    "codigo_iso": "SI",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Solomon Islands",
+    "codigo_iso": "SB",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Somalia",
+    "codigo_iso": "SO",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "South Africa",
+    "codigo_iso": "ZA",
+    "moeda": {
+      "nome": "South African Rand",
+      "sigla": "ZAR",
+      "simbolo": "R",
+      "valor_em_dolar": 18.45
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "R 49.90",
+      "em_usd": 2.7
+    }
+  },
+  {
+    "pais": "South Georgia",
+    "codigo_iso": "GS",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "South Korea",
+    "codigo_iso": "KR",
+    "moeda": {
+      "nome": "South Korean Won",
+      "sigla": "KRW",
+      "simbolo": "₩",
+      "valor_em_dolar": 1370
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "₩ 5200.00",
+      "em_usd": 3.8
+    }
+  },
+  {
+    "pais": "South Sudan",
+    "codigo_iso": "SS",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Spain",
+    "codigo_iso": "ES",
+    "moeda": {
+      "nome": "Euro",
+      "sigla": "EUR",
+      "simbolo": "€",
+      "valor_em_dolar": 0.8657
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "€ 5.49",
+      "em_usd": 6.34
+    }
+  },
+  {
+    "pais": "Sri Lanka",
+    "codigo_iso": "LK",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Sudan",
+    "codigo_iso": "SD",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Suriname",
+    "codigo_iso": "SR",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Svalbard and Jan Mayen",
+    "codigo_iso": "SJ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Sweden",
+    "codigo_iso": "SE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Switzerland",
+    "codigo_iso": "CH",
+    "moeda": {
+      "nome": "Swiss Franc",
+      "sigla": "CHF",
+      "simbolo": "CHF",
+      "valor_em_dolar": 0.7975
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "CHF 7.10",
+      "em_usd": 8.9
+    }
+  },
+  {
+    "pais": "Syria",
+    "codigo_iso": "SY",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Taiwan",
+    "codigo_iso": "TW",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Tajikistan",
+    "codigo_iso": "TJ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Tanzania",
+    "codigo_iso": "TZ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Thailand",
+    "codigo_iso": "TH",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Timor-Leste",
+    "codigo_iso": "TL",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Togo",
+    "codigo_iso": "TG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Tokelau",
+    "codigo_iso": "TK",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Tonga",
+    "codigo_iso": "TO",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Trinidad and Tobago",
+    "codigo_iso": "TT",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Tunisia",
+    "codigo_iso": "TN",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Turkey",
+    "codigo_iso": "TR",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Turkmenistan",
+    "codigo_iso": "TM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Turks and Caicos Islands",
+    "codigo_iso": "TC",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Tuvalu",
+    "codigo_iso": "TV",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Uganda",
+    "codigo_iso": "UG",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Ukraine",
+    "codigo_iso": "UA",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "United Arab Emirates",
+    "codigo_iso": "AE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "United Kingdom",
+    "codigo_iso": "GB",
+    "moeda": {
+      "nome": "British Pound",
+      "sigla": "GBP",
+      "simbolo": "£",
+      "valor_em_dolar": 0.7471
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "£ 4.99",
+      "em_usd": 6.68
+    }
+  },
+  {
+    "pais": "United Nations",
+    "codigo_iso": "UN",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "United States",
+    "codigo_iso": "US",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "United States Minor Outlying Islands",
+    "codigo_iso": "UM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "United States Virgin Islands",
+    "codigo_iso": "VI",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Uruguay",
+    "codigo_iso": "UY",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Uzbekistan",
+    "codigo_iso": "UZ",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Vanuatu",
+    "codigo_iso": "VU",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Vatican City (Holy See)",
+    "codigo_iso": "VA",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Venezuela",
+    "codigo_iso": "VE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Vietnam",
+    "codigo_iso": "VN",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Wallis and Futuna",
+    "codigo_iso": "WF",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Western Sahara",
+    "codigo_iso": "EH",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Yemen",
+    "codigo_iso": "YE",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Zambia",
+    "codigo_iso": "ZM",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  },
+  {
+    "pais": "Zimbabwe",
+    "codigo_iso": "ZW",
+    "moeda": {
+      "nome": "US Dollar",
+      "sigla": "USD",
+      "simbolo": "$",
+      "valor_em_dolar": 1
+    },
+    "custo_bigmac": {
+      "na_moeda_local": "$ 5.69",
+      "em_usd": 5.69
+    }
+  }
+]

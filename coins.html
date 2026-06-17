@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberTaxas | Coins Dashboard</title>
+
+    <link rel="stylesheet" href="css/coins.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div class="bg-glow"></div>
+
+    <main class="app-container">
+
+
+        <header class="navbar-tabs">
+
+            <div class="tabs-left">
+
+            <button class="tab-btn" onclick="window.location.href='idh.html'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect width="7" height="7" x="3" y="3" rx="1"/>
+                    <rect width="7" height="7" x="14" y="3" rx="1"/>
+                    <rect width="7" height="7" x="14" y="14" rx="1"/>
+                    <rect width="7" height="7" x="3" y="14" rx="1"/>
+                </svg>
+                IDH
+            </button>
+
+            <button class="tab-btn" onclick="window.location.href='actions.html'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M3 3v18h18"/>
+                    <path d="m19 9-5 5-4-4-3 3"/>
+                </svg>
+                Bolsas/Ações
+            </button>
+
+            <button class="tab-btn active" onclick="window.location.href='coins.html'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 6v12"/>
+                    <path d="M16 8H11a2 2 0 0 0 0 4h2a2 2 0 0 1 0 4H8"/>
+                </svg>
+                Coins
+            </button>
+
+            </div>
+
+        </header>
+
+        <section class="ranking-list">
+
+            <section class="search-section">
+                <div class="input-wrapper" style="display: flex; gap: 16px; width: 100%;">
+                    <div style="flex: 1;">
+                        <label style="color: #8b949e; font-size: 12px; display: block; margin-bottom: 4px;">Moeda Base (Origem)</label>
+                        <select id="baseCurrency" class="stock-select">
+                            <option value="">Selecione a moeda de origem</option>
+                        </select>
+                    </div>
+                    <div style="flex: 1;">
+                        <label style="color: #8b949e; font-size: 12px; display: block; margin-bottom: 4px;">Moeda de Comparação (Destino)</label>
+                        <select id="targetCurrency" class="stock-select">
+                            <option value="">Selecione a moeda de destino</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cards-container">
+                <div class="info-card">
+                    <span class="card-label">Taxa de Câmbio Direta</span>
+                    <h2 class="card-value" id="exchangeRateDisplay">--</h2>
+                </div>
+                
+                <div class="info-card">
+                    <span class="card-label">Paridade de Poder de Compra (BigMac)</span>
+                    <h2 class="card-value" id="bigMacDisplay">--</h2>
+                </div>
+                
+            <div class="info-card exchange-card" style="min-height: 180px; display: flex; flex-direction: column; justify-content: space-between;">
+                <span class="card-label">Conversor Direto</span>
+                
+                <input type="number" name="Valor" id="exchangeValue" class="exchange-input" placeholder="Quantidade a converter">
+                
+                <button onclick="realizarConversao()" class="exchange-btn" style="margin-top: 10px; margin-bottom: 10px;">Converter</button>
+                
+                <p id="value-convertido" class="exchange-result" style="color: #ffffff !important; display: block !important; opacity: 1 !important; visibility: visible !important; margin-top: 5px; font-size: 14px;">
+                    Resultado: <strong style="color: #43ff96;">--</strong>
+                </p>
+            </div>
+            </section>
+                <section class="chart-card">
+                    <div class="chart-header">
+                        <div>
+                            <h3>Evolução do Ativo</h3>
+                            <span id="chartSubtitle">Últimos 24 meses</span> 
+                        </div>
+                    </div>
+                    <canvas id="assetChart"></canvas>
+                </section>
+        </section>
+
+    </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/coins.js"></script>
+
+
+</body>
+</html>

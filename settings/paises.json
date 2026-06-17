@@ -1,0 +1,2270 @@
+[
+  {
+    "pais": "Afghanistan",
+    "caminho_bandeira": "imgs/afghanistan.png",
+    "pib": "17.15B USD",
+    "idh": 0.663,
+    "pib_per_capita": "414 USD",
+    "inflacao": "-6.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Åland Islands",
+    "caminho_bandeira": "imgs/aland_islands.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Albania",
+    "caminho_bandeira": "imgs/albania.png",
+    "pib": "27.05B USD",
+    "idh": 0.836,
+    "pib_per_capita": "11,378 USD",
+    "inflacao": "2.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Algeria",
+    "caminho_bandeira": "imgs/algeria.png",
+    "pib": "269.32B USD",
+    "idh": 0.8,
+    "pib_per_capita": "5,753 USD",
+    "inflacao": "4.0%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "American Samoa",
+    "caminho_bandeira": "imgs/american_samoa.png",
+    "pib": "871,000,000 USD",
+    "idh": 0.86,
+    "pib_per_capita": "18,017 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Andorra",
+    "caminho_bandeira": "imgs/andorra.png",
+    "pib": "4.04B USD",
+    "idh": 0.912,
+    "pib_per_capita": "49,304 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Angola",
+    "caminho_bandeira": "imgs/angola.png",
+    "pib": "101.00B USD",
+    "idh": 0.76,
+    "pib_per_capita": "2,666 USD",
+    "inflacao": "28.2%",
+    "moeda": "AOA"
+  },
+  {
+    "pais": "Anguilla",
+    "caminho_bandeira": "imgs/anguilla.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Antarctica",
+    "caminho_bandeira": "imgs/antarctica.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Antigua and Barbuda",
+    "caminho_bandeira": "imgs/antigua_and_barbuda.png",
+    "pib": "2.21B USD",
+    "idh": 0.873,
+    "pib_per_capita": "23,542 USD",
+    "inflacao": "6.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Argentina",
+    "caminho_bandeira": "imgs/argentina.png",
+    "pib": "638.37B USD",
+    "idh": 0.846,
+    "pib_per_capita": "13,970 USD",
+    "inflacao": "219.9%",
+    "moeda": "ARS"
+  },
+  {
+    "pais": "Armenia",
+    "caminho_bandeira": "imgs/armenia.png",
+    "pib": "25.96B USD",
+    "idh": 0.821,
+    "pib_per_capita": "8,556 USD",
+    "inflacao": "0.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Aruba",
+    "caminho_bandeira": "imgs/aruba.png",
+    "pib": "4.27B USD",
+    "idh": 0.9,
+    "pib_per_capita": "39,499 USD",
+    "inflacao": "4.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Australia",
+    "caminho_bandeira": "imgs/australia.png",
+    "pib": "1.76T USD",
+    "idh": 0.926,
+    "pib_per_capita": "64,604 USD",
+    "inflacao": "3.2%",
+    "moeda": "AUD"
+  },
+  {
+    "pais": "Austria",
+    "caminho_bandeira": "imgs/austria.png",
+    "pib": "534.79B USD",
+    "idh": 0.921,
+    "pib_per_capita": "58,269 USD",
+    "inflacao": "2.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Azerbaijan",
+    "caminho_bandeira": "imgs/azerbaijan.png",
+    "pib": "74.32B USD",
+    "idh": 0.812,
+    "pib_per_capita": "7,284 USD",
+    "inflacao": "2.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Bahamas",
+    "caminho_bandeira": "imgs/bahamas.png",
+    "pib": "15.83B USD",
+    "idh": 0.9,
+    "pib_per_capita": "39,455 USD",
+    "inflacao": "0.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Bahrain",
+    "caminho_bandeira": "imgs/bahrain.png",
+    "pib": "47.11B USD",
+    "idh": 0.885,
+    "pib_per_capita": "29,654 USD",
+    "inflacao": "0.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Bangladesh",
+    "caminho_bandeira": "imgs/bangladesh.png",
+    "pib": "450.12B USD",
+    "idh": 0.759,
+    "pib_per_capita": "2,593 USD",
+    "inflacao": "10.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Barbados",
+    "caminho_bandeira": "imgs/barbados.png",
+    "pib": "7.50B USD",
+    "idh": 0.88,
+    "pib_per_capita": "26,545 USD",
+    "inflacao": "1.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Belarus",
+    "caminho_bandeira": "imgs/belarus.png",
+    "pib": "75.96B USD",
+    "idh": 0.819,
+    "pib_per_capita": "8,318 USD",
+    "inflacao": "5.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Belgium",
+    "caminho_bandeira": "imgs/belgium.png",
+    "pib": "671.37B USD",
+    "idh": 0.919,
+    "pib_per_capita": "56,615 USD",
+    "inflacao": "3.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Belize",
+    "caminho_bandeira": "imgs/belize.png",
+    "pib": "3.20B USD",
+    "idh": 0.815,
+    "pib_per_capita": "7,681 USD",
+    "inflacao": "3.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Benin",
+    "caminho_bandeira": "imgs/benin.png",
+    "pib": "21.48B USD",
+    "idh": 0.73,
+    "pib_per_capita": "1,485 USD",
+    "inflacao": "1.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Bermuda",
+    "caminho_bandeira": "imgs/bermuda.png",
+    "pib": "9.23B USD",
+    "idh": 0.965,
+    "pib_per_capita": "142,855 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Bhutan",
+    "caminho_bandeira": "imgs/bhutan.png",
+    "pib": "3.01B USD",
+    "idh": 0.779,
+    "pib_per_capita": "3,831 USD",
+    "inflacao": "2.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Bolivia",
+    "caminho_bandeira": "imgs/bolivia.png",
+    "pib": "54.88B USD",
+    "idh": 0.786,
+    "pib_per_capita": "4,421 USD",
+    "inflacao": "5.1%",
+    "moeda": "BOB"
+  },
+  {
+    "pais": "Bosnia and Herzegovina",
+    "caminho_bandeira": "imgs/bosnia_and_herzegovina.png",
+    "pib": "29.61B USD",
+    "idh": 0.825,
+    "pib_per_capita": "9,359 USD",
+    "inflacao": "1.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Botswana",
+    "caminho_bandeira": "imgs/botswana.png",
+    "pib": "19.40B USD",
+    "idh": 0.815,
+    "pib_per_capita": "7,696 USD",
+    "inflacao": "2.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Bouvet Island",
+    "caminho_bandeira": "imgs/bouvet_island.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Brazil",
+    "caminho_bandeira": "imgs/brazil.png",
+    "pib": "2.19T USD",
+    "idh": 0.831,
+    "pib_per_capita": "10,311 USD",
+    "inflacao": "4.4%",
+    "moeda": "BRL"
+  },
+  {
+    "pais": "British Indian Ocean Territory",
+    "caminho_bandeira": "imgs/british_indian_ocean_territory.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "British Virgin Islands",
+    "caminho_bandeira": "imgs/british_virgin_islands.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Brunei",
+    "caminho_bandeira": "imgs/brunei.png",
+    "pib": "15.34B USD",
+    "idh": 0.891,
+    "pib_per_capita": "33,153 USD",
+    "inflacao": "-0.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Bulgaria",
+    "caminho_bandeira": "imgs/bulgaria.png",
+    "pib": "113.34B USD",
+    "idh": 0.858,
+    "pib_per_capita": "17,596 USD",
+    "inflacao": "2.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Burkina Faso",
+    "caminho_bandeira": "imgs/burkina_faso.png",
+    "pib": "23.12B USD",
+    "idh": 0.708,
+    "pib_per_capita": "982 USD",
+    "inflacao": "4.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Burundi",
+    "caminho_bandeira": "imgs/burundi.png",
+    "pib": "3.08B USD",
+    "idh": 0.63,
+    "pib_per_capita": "219 USD",
+    "inflacao": "20.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Cambodia",
+    "caminho_bandeira": "imgs/cambodia.png",
+    "pib": "46.35B USD",
+    "idh": 0.759,
+    "pib_per_capita": "2,628 USD",
+    "inflacao": "0.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Cameroon",
+    "caminho_bandeira": "imgs/cameroon.png",
+    "pib": "53.30B USD",
+    "idh": 0.741,
+    "pib_per_capita": "1,830 USD",
+    "inflacao": "4.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Canada",
+    "caminho_bandeira": "imgs/canada.png",
+    "pib": "2.24T USD",
+    "idh": 0.917,
+    "pib_per_capita": "54,340 USD",
+    "inflacao": "2.4%",
+    "moeda": "CAD"
+  },
+  {
+    "pais": "Cape Verde",
+    "caminho_bandeira": "imgs/cape_verde.png",
+    "pib": "2.73B USD",
+    "idh": 0.795,
+    "pib_per_capita": "5,192 USD",
+    "inflacao": "1.0%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Caribbean Netherlands",
+    "caminho_bandeira": "imgs/caribbean_netherlands.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Cayman Islands",
+    "caminho_bandeira": "imgs/cayman_islands.png",
+    "pib": "7.24B USD",
+    "idh": 0.948,
+    "pib_per_capita": "99,144 USD",
+    "inflacao": "-0.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Central African Republic",
+    "caminho_bandeira": "imgs/central_african_republic.png",
+    "pib": "2.75B USD",
+    "idh": 0.675,
+    "pib_per_capita": "516 USD",
+    "inflacao": "1.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Chad",
+    "caminho_bandeira": "imgs/chad.png",
+    "pib": "19.52B USD",
+    "idh": 0.707,
+    "pib_per_capita": "962 USD",
+    "inflacao": "8.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Chile",
+    "caminho_bandeira": "imgs/chile.png",
+    "pib": "330.27B USD",
+    "idh": 0.856,
+    "pib_per_capita": "16,710 USD",
+    "inflacao": "4.3%",
+    "moeda": "CLP"
+  },
+  {
+    "pais": "China",
+    "caminho_bandeira": "imgs/china.png",
+    "pib": "18.74T USD",
+    "idh": 0.844,
+    "pib_per_capita": "13,303 USD",
+    "inflacao": "0.2%",
+    "moeda": "CNY"
+  },
+  {
+    "pais": "Christmas Island",
+    "caminho_bandeira": "imgs/christmas_island.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Cocos (Keeling) Islands",
+    "caminho_bandeira": "imgs/cocos_keeling_islands.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Colombia",
+    "caminho_bandeira": "imgs/colombia.png",
+    "pib": "418.82B USD",
+    "idh": 0.817,
+    "pib_per_capita": "7,919 USD",
+    "inflacao": "6.6%",
+    "moeda": "COP"
+  },
+  {
+    "pais": "Comoros",
+    "caminho_bandeira": "imgs/comoros.png",
+    "pib": "1.44B USD",
+    "idh": 0.736,
+    "pib_per_capita": "1,663 USD",
+    "inflacao": "5.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Cook Islands",
+    "caminho_bandeira": "imgs/cook_islands.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Costa Rica",
+    "caminho_bandeira": "imgs/costa_rica.png",
+    "pib": "95.35B USD",
+    "idh": 0.861,
+    "pib_per_capita": "18,587 USD",
+    "inflacao": "-0.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Côte d'Ivoire (Ivory Coast)",
+    "caminho_bandeira": "imgs/cote_divoire_ivory_coast.png",
+    "pib": "87.11B USD",
+    "idh": 0.761,
+    "pib_per_capita": "2,728 USD",
+    "inflacao": "3.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Croatia",
+    "caminho_bandeira": "imgs/croatia.png",
+    "pib": "92.98B USD",
+    "idh": 0.875,
+    "pib_per_capita": "24,050 USD",
+    "inflacao": "3.0%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Cuba",
+    "caminho_bandeira": "imgs/cuba.png",
+    "pib": "107.35B USD",
+    "idh": 0.827,
+    "pib_per_capita": "9,605 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Curaçao",
+    "caminho_bandeira": "imgs/curacao.png",
+    "pib": "3.56B USD",
+    "idh": 0.872,
+    "pib_per_capita": "22,833 USD",
+    "inflacao": "2.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Cyprus",
+    "caminho_bandeira": "imgs/cyprus.png",
+    "pib": "37.63B USD",
+    "idh": 0.899,
+    "pib_per_capita": "38,674 USD",
+    "inflacao": "1.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Czechia",
+    "caminho_bandeira": "imgs/czechia.png",
+    "pib": "347.03B USD",
+    "idh": 0.889,
+    "pib_per_capita": "31,823 USD",
+    "inflacao": "2.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Denmark",
+    "caminho_bandeira": "imgs/denmark.png",
+    "pib": "424.52B USD",
+    "idh": 0.931,
+    "pib_per_capita": "71,026 USD",
+    "inflacao": "1.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Djibouti",
+    "caminho_bandeira": "imgs/djibouti.png",
+    "pib": "4.15B USD",
+    "idh": 0.775,
+    "pib_per_capita": "3,553 USD",
+    "inflacao": "2.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Dominica",
+    "caminho_bandeira": "imgs/dominica.png",
+    "pib": "688,881,481 USD",
+    "idh": 0.831,
+    "pib_per_capita": "10,405 USD",
+    "inflacao": "2.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Dominican Republic",
+    "caminho_bandeira": "imgs/dominican_republic.png",
+    "pib": "124.28B USD",
+    "idh": 0.833,
+    "pib_per_capita": "10,876 USD",
+    "inflacao": "3.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "DR Congo",
+    "caminho_bandeira": "imgs/dr_congo.png",
+    "pib": "70.96B USD",
+    "idh": 0.687,
+    "pib_per_capita": "649 USD",
+    "inflacao": "2.9%",
+    "moeda": "CDF"
+  },
+  {
+    "pais": "Ecuador",
+    "caminho_bandeira": "imgs/ecuador.png",
+    "pib": "124.68B USD",
+    "idh": 0.809,
+    "pib_per_capita": "6,875 USD",
+    "inflacao": "1.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Egypt",
+    "caminho_bandeira": "imgs/egypt.png",
+    "pib": "389.06B USD",
+    "idh": 0.772,
+    "pib_per_capita": "3,338 USD",
+    "inflacao": "28.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "El Salvador",
+    "caminho_bandeira": "imgs/el_salvador.png",
+    "pib": "35.36B USD",
+    "idh": 0.799,
+    "pib_per_capita": "5,580 USD",
+    "inflacao": "0.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Equatorial Guinea",
+    "caminho_bandeira": "imgs/equatorial_guinea.png",
+    "pib": "12.77B USD",
+    "idh": 0.808,
+    "pib_per_capita": "6,745 USD",
+    "inflacao": "2.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Eritrea",
+    "caminho_bandeira": "imgs/eritrea.png",
+    "pib": "2.07B USD",
+    "idh": 0.69,
+    "pib_per_capita": "689 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Estonia",
+    "caminho_bandeira": "imgs/estonia.png",
+    "pib": "43.13B USD",
+    "idh": 0.888,
+    "pib_per_capita": "31,428 USD",
+    "inflacao": "3.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Eswatini (Swaziland)",
+    "caminho_bandeira": "imgs/eswatini_swaziland.png",
+    "pib": "4.86B USD",
+    "idh": 0.78,
+    "pib_per_capita": "3,910 USD",
+    "inflacao": "2.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Ethiopia",
+    "caminho_bandeira": "imgs/ethiopia.png",
+    "pib": "149.74B USD",
+    "idh": 0.716,
+    "pib_per_capita": "1,134 USD",
+    "inflacao": "21.0%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "European Union",
+    "caminho_bandeira": "imgs/european_union.png",
+    "pib": "19.50T USD",
+    "idh": 0.905,
+    "pib_per_capita": "43,305 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Falkland Islands",
+    "caminho_bandeira": "imgs/falkland_islands.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Faroe Islands",
+    "caminho_bandeira": "imgs/faroe_islands.png",
+    "pib": "4.05B USD",
+    "idh": 0.933,
+    "pib_per_capita": "74,120 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Fiji",
+    "caminho_bandeira": "imgs/fiji.png",
+    "pib": "5.97B USD",
+    "idh": 0.806,
+    "pib_per_capita": "6,426 USD",
+    "inflacao": "3.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Finland",
+    "caminho_bandeira": "imgs/finland.png",
+    "pib": "298.70B USD",
+    "idh": 0.916,
+    "pib_per_capita": "53,150 USD",
+    "inflacao": "1.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "France",
+    "caminho_bandeira": "imgs/france.png",
+    "pib": "3.16T USD",
+    "idh": 0.908,
+    "pib_per_capita": "46,103 USD",
+    "inflacao": "2.0%",
+    "moeda": "EUR"
+  },
+  {
+    "pais": "French Guiana",
+    "caminho_bandeira": "imgs/french_guiana.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "French Polynesia",
+    "caminho_bandeira": "imgs/french_polynesia.png",
+    "pib": "6.32B USD",
+    "idh": 0.871,
+    "pib_per_capita": "22,440 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "French Southern and Antarctic Lands",
+    "caminho_bandeira": "imgs/french_southern_and_antarctic_lands.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Gabon",
+    "caminho_bandeira": "imgs/gabon.png",
+    "pib": "20.90B USD",
+    "idh": 0.819,
+    "pib_per_capita": "8,230 USD",
+    "inflacao": "1.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Gambia",
+    "caminho_bandeira": "imgs/gambia.png",
+    "pib": "2.40B USD",
+    "idh": 0.702,
+    "pib_per_capita": "871 USD",
+    "inflacao": "11.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Georgia",
+    "caminho_bandeira": "imgs/georgia.png",
+    "pib": "34.19B USD",
+    "idh": 0.825,
+    "pib_per_capita": "9,241 USD",
+    "inflacao": "1.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Germany",
+    "caminho_bandeira": "imgs/germany.png",
+    "pib": "4.69T USD",
+    "idh": 0.919,
+    "pib_per_capita": "56,104 USD",
+    "inflacao": "2.3%",
+    "moeda": "EUR"
+  },
+  {
+    "pais": "Ghana",
+    "caminho_bandeira": "imgs/ghana.png",
+    "pib": "82.31B USD",
+    "idh": 0.755,
+    "pib_per_capita": "2,391 USD",
+    "inflacao": "22.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Gibraltar",
+    "caminho_bandeira": "imgs/gibraltar.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Greece",
+    "caminho_bandeira": "imgs/greece.png",
+    "pib": "256.24B USD",
+    "idh": 0.876,
+    "pib_per_capita": "24,626 USD",
+    "inflacao": "2.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Greenland",
+    "caminho_bandeira": "imgs/greenland.png",
+    "pib": "3.33B USD",
+    "idh": 0.921,
+    "pib_per_capita": "58,499 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Grenada",
+    "caminho_bandeira": "imgs/grenada.png",
+    "pib": "1.37B USD",
+    "idh": 0.837,
+    "pib_per_capita": "11,705 USD",
+    "inflacao": "1.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Guadeloupe",
+    "caminho_bandeira": "imgs/guadeloupe.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Guam",
+    "caminho_bandeira": "imgs/guam.png",
+    "pib": "6.91B USD",
+    "idh": 0.903,
+    "pib_per_capita": "41,833 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Guatemala",
+    "caminho_bandeira": "imgs/guatemala.png",
+    "pib": "113.20B USD",
+    "idh": 0.804,
+    "pib_per_capita": "6,150 USD",
+    "inflacao": "2.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Guernsey",
+    "caminho_bandeira": "imgs/guernsey.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Guinea",
+    "caminho_bandeira": "imgs/guinea.png",
+    "pib": "25.01B USD",
+    "idh": 0.737,
+    "pib_per_capita": "1,695 USD",
+    "inflacao": "8.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Guinea-Bissau",
+    "caminho_bandeira": "imgs/guineabissau.png",
+    "pib": "2.22B USD",
+    "idh": 0.71,
+    "pib_per_capita": "1,008 USD",
+    "inflacao": "3.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Guyana",
+    "caminho_bandeira": "imgs/guyana.png",
+    "pib": "24.66B USD",
+    "idh": 0.885,
+    "pib_per_capita": "29,675 USD",
+    "inflacao": "2.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Haiti",
+    "caminho_bandeira": "imgs/haiti.png",
+    "pib": "25.22B USD",
+    "idh": 0.749,
+    "pib_per_capita": "2,143 USD",
+    "inflacao": "26.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Heard Island and McDonald Islands",
+    "caminho_bandeira": "imgs/heard_island_and_mcdonald_islands.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Honduras",
+    "caminho_bandeira": "imgs/honduras.png",
+    "pib": "37.09B USD",
+    "idh": 0.773,
+    "pib_per_capita": "3,426 USD",
+    "inflacao": "4.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Hong Kong",
+    "caminho_bandeira": "imgs/hong_kong.png",
+    "pib": "406.86B USD",
+    "idh": 0.917,
+    "pib_per_capita": "54,075 USD",
+    "inflacao": "1.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Hungary",
+    "caminho_bandeira": "imgs/hungary.png",
+    "pib": "222.72B USD",
+    "idh": 0.873,
+    "pib_per_capita": "23,292 USD",
+    "inflacao": "3.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Iceland",
+    "caminho_bandeira": "imgs/iceland.png",
+    "pib": "33.26B USD",
+    "idh": 0.941,
+    "pib_per_capita": "86,041 USD",
+    "inflacao": "5.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "India",
+    "caminho_bandeira": "imgs/india.png",
+    "pib": "3.91T USD",
+    "idh": 0.761,
+    "pib_per_capita": "2,695 USD",
+    "inflacao": "5.0%",
+    "moeda": "INR"
+  },
+  {
+    "pais": "Indonesia",
+    "caminho_bandeira": "imgs/indonesia.png",
+    "pib": "1.40T USD",
+    "idh": 0.792,
+    "pib_per_capita": "4,925 USD",
+    "inflacao": "2.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Iran",
+    "caminho_bandeira": "imgs/iran.png",
+    "pib": "475.25B USD",
+    "idh": 0.795,
+    "pib_per_capita": "5,190 USD",
+    "inflacao": "32.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Iraq",
+    "caminho_bandeira": "imgs/iraq.png",
+    "pib": "279.64B USD",
+    "idh": 0.803,
+    "pib_per_capita": "6,074 USD",
+    "inflacao": "-12.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Ireland",
+    "caminho_bandeira": "imgs/ireland.png",
+    "pib": "609.16B USD",
+    "idh": 0.955,
+    "pib_per_capita": "112,895 USD",
+    "inflacao": "2.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Isle of Man",
+    "caminho_bandeira": "imgs/isle_of_man.png",
+    "pib": "7.43B USD",
+    "idh": 0.942,
+    "pib_per_capita": "88,329 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Israel",
+    "caminho_bandeira": "imgs/israel.png",
+    "pib": "540.38B USD",
+    "idh": 0.917,
+    "pib_per_capita": "54,177 USD",
+    "inflacao": "3.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Italy",
+    "caminho_bandeira": "imgs/italy.png",
+    "pib": "2.38T USD",
+    "idh": 0.902,
+    "pib_per_capita": "40,385 USD",
+    "inflacao": "1.0%",
+    "moeda": "EUR"
+  },
+  {
+    "pais": "Jamaica",
+    "caminho_bandeira": "imgs/jamaica.png",
+    "pib": "22.01B USD",
+    "idh": 0.816,
+    "pib_per_capita": "7,754 USD",
+    "inflacao": "5.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Japan",
+    "caminho_bandeira": "imgs/japan.png",
+    "pib": "4.03T USD",
+    "idh": 0.89,
+    "pib_per_capita": "32,487 USD",
+    "inflacao": "2.7%",
+    "moeda": "JPY"
+  },
+  {
+    "pais": "Jersey",
+    "caminho_bandeira": "imgs/jersey.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Jordan",
+    "caminho_bandeira": "imgs/jordan.png",
+    "pib": "53.35B USD",
+    "idh": 0.789,
+    "pib_per_capita": "4,618 USD",
+    "inflacao": "1.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Kazakhstan",
+    "caminho_bandeira": "imgs/kazakhstan.png",
+    "pib": "291.48B USD",
+    "idh": 0.847,
+    "pib_per_capita": "14,155 USD",
+    "inflacao": "8.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Kenya",
+    "caminho_bandeira": "imgs/kenya.png",
+    "pib": "120.34B USD",
+    "idh": 0.749,
+    "pib_per_capita": "2,132 USD",
+    "inflacao": "4.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Kiribati",
+    "caminho_bandeira": "imgs/kiribati.png",
+    "pib": "307,862,564 USD",
+    "idh": 0.752,
+    "pib_per_capita": "2,289 USD",
+    "inflacao": "2.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Kosovo",
+    "caminho_bandeira": "imgs/kosovo.png",
+    "pib": "11.20B USD",
+    "idh": 0.811,
+    "pib_per_capita": "7,023 USD",
+    "inflacao": "1.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Kuwait",
+    "caminho_bandeira": "imgs/kuwait.png",
+    "pib": "160.23B USD",
+    "idh": 0.891,
+    "pib_per_capita": "32,718 USD",
+    "inflacao": "2.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Kyrgyzstan",
+    "caminho_bandeira": "imgs/kyrgyzstan.png",
+    "pib": "17.48B USD",
+    "idh": 0.755,
+    "pib_per_capita": "2,420 USD",
+    "inflacao": "5.0%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Laos",
+    "caminho_bandeira": "imgs/laos.png",
+    "pib": "16.50B USD",
+    "idh": 0.748,
+    "pib_per_capita": "2,124 USD",
+    "inflacao": "23.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Latvia",
+    "caminho_bandeira": "imgs/latvia.png",
+    "pib": "43.68B USD",
+    "idh": 0.873,
+    "pib_per_capita": "23,409 USD",
+    "inflacao": "1.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Lebanon",
+    "caminho_bandeira": "imgs/lebanon.png",
+    "pib": "20.08B USD",
+    "idh": 0.774,
+    "pib_per_capita": "3,478 USD",
+    "inflacao": "45.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Lesotho",
+    "caminho_bandeira": "imgs/lesotho.png",
+    "pib": "2.27B USD",
+    "idh": 0.708,
+    "pib_per_capita": "972 USD",
+    "inflacao": "6.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Liberia",
+    "caminho_bandeira": "imgs/liberia.png",
+    "pib": "4.78B USD",
+    "idh": 0.701,
+    "pib_per_capita": "851 USD",
+    "inflacao": "8.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Libya",
+    "caminho_bandeira": "imgs/libya.png",
+    "pib": "48.49B USD",
+    "idh": 0.807,
+    "pib_per_capita": "6,569 USD",
+    "inflacao": "2.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Liechtenstein",
+    "caminho_bandeira": "imgs/liechtenstein.png",
+    "pib": "8.24B USD",
+    "idh": 0.965,
+    "pib_per_capita": "206,781 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Lithuania",
+    "caminho_bandeira": "imgs/lithuania.png",
+    "pib": "84.87B USD",
+    "idh": 0.885,
+    "pib_per_capita": "29,384 USD",
+    "inflacao": "0.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Luxembourg",
+    "caminho_bandeira": "imgs/luxembourg.png",
+    "pib": "93.28B USD",
+    "idh": 0.965,
+    "pib_per_capita": "137,782 USD",
+    "inflacao": "2.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Macau",
+    "caminho_bandeira": "imgs/macau.png",
+    "pib": "49.47B USD",
+    "idh": 0.932,
+    "pib_per_capita": "72,005 USD",
+    "inflacao": "0.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Madagascar",
+    "caminho_bandeira": "imgs/madagascar.png",
+    "pib": "17.42B USD",
+    "idh": 0.678,
+    "pib_per_capita": "545 USD",
+    "inflacao": "7.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Malawi",
+    "caminho_bandeira": "imgs/malawi.png",
+    "pib": "11.32B USD",
+    "idh": 0.675,
+    "pib_per_capita": "523 USD",
+    "inflacao": "32.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Malaysia",
+    "caminho_bandeira": "imgs/malaysia.png",
+    "pib": "422.23B USD",
+    "idh": 0.838,
+    "pib_per_capita": "11,874 USD",
+    "inflacao": "1.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Maldives",
+    "caminho_bandeira": "imgs/maldives.png",
+    "pib": "7.06B USD",
+    "idh": 0.844,
+    "pib_per_capita": "13,379 USD",
+    "inflacao": "1.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Mali",
+    "caminho_bandeira": "imgs/mali.png",
+    "pib": "26.79B USD",
+    "idh": 0.714,
+    "pib_per_capita": "1,095 USD",
+    "inflacao": "3.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Malta",
+    "caminho_bandeira": "imgs/malta.png",
+    "pib": "24.97B USD",
+    "idh": 0.906,
+    "pib_per_capita": "43,899 USD",
+    "inflacao": "1.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Marshall Islands",
+    "caminho_bandeira": "imgs/marshall_islands.png",
+    "pib": "290,108,490 USD",
+    "idh": 0.816,
+    "pib_per_capita": "7,726 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Martinique",
+    "caminho_bandeira": "imgs/martinique.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Mauritania",
+    "caminho_bandeira": "imgs/mauritania.png",
+    "pib": "10.91B USD",
+    "idh": 0.748,
+    "pib_per_capita": "2,110 USD",
+    "inflacao": "2.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Mauritius",
+    "caminho_bandeira": "imgs/mauritius.png",
+    "pib": "14.94B USD",
+    "idh": 0.838,
+    "pib_per_capita": "11,991 USD",
+    "inflacao": "3.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Mayotte",
+    "caminho_bandeira": "imgs/mayotte.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Mexico",
+    "caminho_bandeira": "imgs/mexico.png",
+    "pib": "1.86T USD",
+    "idh": 0.847,
+    "pib_per_capita": "14,186 USD",
+    "inflacao": "4.7%",
+    "moeda": "MXN"
+  },
+  {
+    "pais": "Micronesia",
+    "caminho_bandeira": "imgs/micronesia.png",
+    "pib": "471,425,099 USD",
+    "idh": 0.783,
+    "pib_per_capita": "4,166 USD",
+    "inflacao": "5.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Moldova",
+    "caminho_bandeira": "imgs/moldova.png",
+    "pib": "18.20B USD",
+    "idh": 0.815,
+    "pib_per_capita": "7,576 USD",
+    "inflacao": "4.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Monaco",
+    "caminho_bandeira": "imgs/monaco.png",
+    "pib": "11.13B USD",
+    "idh": 0.965,
+    "pib_per_capita": "288,001 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Mongolia",
+    "caminho_bandeira": "imgs/mongolia.png",
+    "pib": "23.79B USD",
+    "idh": 0.809,
+    "pib_per_capita": "6,751 USD",
+    "inflacao": "6.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Montenegro",
+    "caminho_bandeira": "imgs/montenegro.png",
+    "pib": "8.27B USD",
+    "idh": 0.844,
+    "pib_per_capita": "13,263 USD",
+    "inflacao": "3.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Montserrat",
+    "caminho_bandeira": "imgs/montserrat.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Morocco",
+    "caminho_bandeira": "imgs/morocco.png",
+    "pib": "160.61B USD",
+    "idh": 0.783,
+    "pib_per_capita": "4,153 USD",
+    "inflacao": "1.0%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Mozambique",
+    "caminho_bandeira": "imgs/mozambique.png",
+    "pib": "22.75B USD",
+    "idh": 0.687,
+    "pib_per_capita": "657 USD",
+    "inflacao": "4.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Myanmar",
+    "caminho_bandeira": "imgs/myanmar.png",
+    "pib": "74.07B USD",
+    "idh": 0.725,
+    "pib_per_capita": "1,359 USD",
+    "inflacao": "8.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Namibia",
+    "caminho_bandeira": "imgs/namibia.png",
+    "pib": "13.37B USD",
+    "idh": 0.786,
+    "pib_per_capita": "4,413 USD",
+    "inflacao": "4.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Nauru",
+    "caminho_bandeira": "imgs/nauru.png",
+    "pib": "162,588,621 USD",
+    "idh": 0.845,
+    "pib_per_capita": "13,609 USD",
+    "inflacao": "-0.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Nepal",
+    "caminho_bandeira": "imgs/nepal.png",
+    "pib": "42.91B USD",
+    "idh": 0.728,
+    "pib_per_capita": "1,447 USD",
+    "inflacao": "4.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Netherlands",
+    "caminho_bandeira": "imgs/netherlands.png",
+    "pib": "1.21T USD",
+    "idh": 0.928,
+    "pib_per_capita": "67,520 USD",
+    "inflacao": "3.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "New Caledonia",
+    "caminho_bandeira": "imgs/new_caledonia.png",
+    "pib": "8.55B USD",
+    "idh": 0.885,
+    "pib_per_capita": "29,213 USD",
+    "inflacao": "0.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "New Zealand",
+    "caminho_bandeira": "imgs/new_zealand.png",
+    "pib": "260.17B USD",
+    "idh": 0.912,
+    "pib_per_capita": "49,205 USD",
+    "inflacao": "2.9%",
+    "moeda": "NZD"
+  },
+  {
+    "pais": "Nicaragua",
+    "caminho_bandeira": "imgs/nicaragua.png",
+    "pib": "19.69B USD",
+    "idh": 0.764,
+    "pib_per_capita": "2,848 USD",
+    "inflacao": "4.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Niger",
+    "caminho_bandeira": "imgs/niger.png",
+    "pib": "19.88B USD",
+    "idh": 0.693,
+    "pib_per_capita": "735 USD",
+    "inflacao": "9.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Nigeria",
+    "caminho_bandeira": "imgs/nigeria.png",
+    "pib": "252.26B USD",
+    "idh": 0.713,
+    "pib_per_capita": "1,084 USD",
+    "inflacao": "33.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Niue",
+    "caminho_bandeira": "imgs/niue.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Norfolk Island",
+    "caminho_bandeira": "imgs/norfolk_island.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "North Korea",
+    "caminho_bandeira": "imgs/north_korea.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "North Macedonia",
+    "caminho_bandeira": "imgs/north_macedonia.png",
+    "pib": "16.95B USD",
+    "idh": 0.825,
+    "pib_per_capita": "9,292 USD",
+    "inflacao": "3.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Northern Mariana Islands",
+    "caminho_bandeira": "imgs/northern_mariana_islands.png",
+    "pib": "1.10B USD",
+    "idh": 0.874,
+    "pib_per_capita": "23,786 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Norway",
+    "caminho_bandeira": "imgs/norway.png",
+    "pib": "483.59B USD",
+    "idh": 0.941,
+    "pib_per_capita": "86,785 USD",
+    "inflacao": "3.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Oman",
+    "caminho_bandeira": "imgs/oman.png",
+    "pib": "107.14B USD",
+    "idh": 0.866,
+    "pib_per_capita": "20,285 USD",
+    "inflacao": "0.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Pakistan",
+    "caminho_bandeira": "imgs/pakistan.png",
+    "pib": "371.57B USD",
+    "idh": 0.73,
+    "pib_per_capita": "1,479 USD",
+    "inflacao": "12.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Palau",
+    "caminho_bandeira": "imgs/palau.png",
+    "pib": "276,733,063 USD",
+    "idh": 0.852,
+    "pib_per_capita": "15,611 USD",
+    "inflacao": "2.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Palestine",
+    "caminho_bandeira": "imgs/palestine.png",
+    "pib": "13.71B USD",
+    "idh": 0.759,
+    "pib_per_capita": "2,592 USD",
+    "inflacao": "53.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Panama",
+    "caminho_bandeira": "imgs/panama.png",
+    "pib": "86.52B USD",
+    "idh": 0.863,
+    "pib_per_capita": "19,161 USD",
+    "inflacao": "0.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Papua New Guinea",
+    "caminho_bandeira": "imgs/papua_new_guinea.png",
+    "pib": "31.80B USD",
+    "idh": 0.766,
+    "pib_per_capita": "3,007 USD",
+    "inflacao": "0.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Paraguay",
+    "caminho_bandeira": "imgs/paraguay.png",
+    "pib": "44.46B USD",
+    "idh": 0.806,
+    "pib_per_capita": "6,416 USD",
+    "inflacao": "3.8%",
+    "moeda": "PYG"
+  },
+  {
+    "pais": "Peru",
+    "caminho_bandeira": "imgs/peru.png",
+    "pib": "289.22B USD",
+    "idh": 0.82,
+    "pib_per_capita": "8,452 USD",
+    "inflacao": "2.0%",
+    "moeda": "PEN"
+  },
+  {
+    "pais": "Philippines",
+    "caminho_bandeira": "imgs/philippines.png",
+    "pib": "461.62B USD",
+    "idh": 0.781,
+    "pib_per_capita": "3,985 USD",
+    "inflacao": "3.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Pitcairn Islands",
+    "caminho_bandeira": "imgs/pitcairn_islands.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Poland",
+    "caminho_bandeira": "imgs/poland.png",
+    "pib": "917.77B USD",
+    "idh": 0.877,
+    "pib_per_capita": "25,104 USD",
+    "inflacao": "3.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Portugal",
+    "caminho_bandeira": "imgs/portugal.png",
+    "pib": "313.27B USD",
+    "idh": 0.885,
+    "pib_per_capita": "29,292 USD",
+    "inflacao": "2.4%",
+    "moeda": "EUR"
+  },
+  {
+    "pais": "Puerto Rico",
+    "caminho_bandeira": "imgs/puerto_rico.png",
+    "pib": "126.03B USD",
+    "idh": 0.9,
+    "pib_per_capita": "39,344 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Qatar",
+    "caminho_bandeira": "imgs/qatar.png",
+    "pib": "219.16B USD",
+    "idh": 0.935,
+    "pib_per_capita": "76,689 USD",
+    "inflacao": "1.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Republic of the Congo",
+    "caminho_bandeira": "imgs/republic_of_the_congo.png",
+    "pib": "15.72B USD",
+    "idh": 0.756,
+    "pib_per_capita": "2,482 USD",
+    "inflacao": "3.1%",
+    "moeda": "XAF"
+  },
+  {
+    "pais": "Réunion",
+    "caminho_bandeira": "imgs/reunion.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Romania",
+    "caminho_bandeira": "imgs/romania.png",
+    "pib": "382.56B USD",
+    "idh": 0.865,
+    "pib_per_capita": "20,080 USD",
+    "inflacao": "5.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Russia",
+    "caminho_bandeira": "imgs/russia.png",
+    "pib": "2.17T USD",
+    "idh": 0.85,
+    "pib_per_capita": "14,889 USD",
+    "inflacao": "8.4%",
+    "moeda": "RUB"
+  },
+  {
+    "pais": "Rwanda",
+    "caminho_bandeira": "imgs/rwanda.png",
+    "pib": "14.25B USD",
+    "idh": 0.709,
+    "pib_per_capita": "1,000 USD",
+    "inflacao": "1.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Saint Barthélemy",
+    "caminho_bandeira": "imgs/saint_barthelemy.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Saint Helena, Ascension and Tristan da Cunha",
+    "caminho_bandeira": "imgs/saint_helena_ascension_and_tristan_da_cunha.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Saint Kitts and Nevis",
+    "caminho_bandeira": "imgs/saint_kitts_and_nevis.png",
+    "pib": "1.12B USD",
+    "idh": 0.874,
+    "pib_per_capita": "23,961 USD",
+    "inflacao": "3.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Saint Lucia",
+    "caminho_bandeira": "imgs/saint_lucia.png",
+    "pib": "2.55B USD",
+    "idh": 0.847,
+    "pib_per_capita": "14,182 USD",
+    "inflacao": "-0.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Saint Martin",
+    "caminho_bandeira": "imgs/saint_martin.png",
+    "pib": "649,206,263 USD",
+    "idh": 0.869,
+    "pib_per_capita": "21,668 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Saint Pierre and Miquelon",
+    "caminho_bandeira": "imgs/saint_pierre_and_miquelon.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Saint Vincent and the Grenadines",
+    "caminho_bandeira": "imgs/saint_vincent_and_the_grenadines.png",
+    "pib": "1.16B USD",
+    "idh": 0.836,
+    "pib_per_capita": "11,501 USD",
+    "inflacao": "3.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Samoa",
+    "caminho_bandeira": "imgs/samoa.png",
+    "pib": "1.18B USD",
+    "idh": 0.797,
+    "pib_per_capita": "5,393 USD",
+    "inflacao": "2.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "San Marino",
+    "caminho_bandeira": "imgs/san_marino.png",
+    "pib": "2.03B USD",
+    "idh": 0.922,
+    "pib_per_capita": "59,880 USD",
+    "inflacao": "1.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "São Tomé and Príncipe",
+    "caminho_bandeira": "imgs/sao_tome_and_principe.png",
+    "pib": "822,154,621 USD",
+    "idh": 0.774,
+    "pib_per_capita": "3,491 USD",
+    "inflacao": "14.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Saudi Arabia",
+    "caminho_bandeira": "imgs/saudi_arabia.png",
+    "pib": "1.24T USD",
+    "idh": 0.894,
+    "pib_per_capita": "35,122 USD",
+    "inflacao": "1.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Senegal",
+    "caminho_bandeira": "imgs/senegal.png",
+    "pib": "32.81B USD",
+    "idh": 0.739,
+    "pib_per_capita": "1,773 USD",
+    "inflacao": "0.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Serbia",
+    "caminho_bandeira": "imgs/serbia.png",
+    "pib": "90.10B USD",
+    "idh": 0.845,
+    "pib_per_capita": "13,679 USD",
+    "inflacao": "4.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Seychelles",
+    "caminho_bandeira": "imgs/seychelles.png",
+    "pib": "2.17B USD",
+    "idh": 0.859,
+    "pib_per_capita": "17,859 USD",
+    "inflacao": "0.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Sierra Leone",
+    "caminho_bandeira": "imgs/sierra_leone.png",
+    "pib": "6.97B USD",
+    "idh": 0.698,
+    "pib_per_capita": "807 USD",
+    "inflacao": "28.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Singapore",
+    "caminho_bandeira": "imgs/singapore.png",
+    "pib": "547.39B USD",
+    "idh": 0.944,
+    "pib_per_capita": "90,674 USD",
+    "inflacao": "2.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Sint Maarten",
+    "caminho_bandeira": "imgs/sint_maarten.png",
+    "pib": "1.80B USD",
+    "idh": 0.903,
+    "pib_per_capita": "41,473 USD",
+    "inflacao": "2.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Slovakia",
+    "caminho_bandeira": "imgs/slovakia.png",
+    "pib": "140.93B USD",
+    "idh": 0.879,
+    "pib_per_capita": "25,993 USD",
+    "inflacao": "2.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Slovenia",
+    "caminho_bandeira": "imgs/slovenia.png",
+    "pib": "72.97B USD",
+    "idh": 0.893,
+    "pib_per_capita": "34,301 USD",
+    "inflacao": "2.0%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Solomon Islands",
+    "caminho_bandeira": "imgs/solomon_islands.png",
+    "pib": "1.58B USD",
+    "idh": 0.743,
+    "pib_per_capita": "1,934 USD",
+    "inflacao": "4.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Somalia",
+    "caminho_bandeira": "imgs/somalia.png",
+    "pib": "11.97B USD",
+    "idh": 0.685,
+    "pib_per_capita": "630 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "South Africa",
+    "caminho_bandeira": "imgs/south_africa.png",
+    "pib": "401.14B USD",
+    "idh": 0.805,
+    "pib_per_capita": "6,267 USD",
+    "inflacao": "4.4%",
+    "moeda": "ZAR"
+  },
+  {
+    "pais": "South Georgia",
+    "caminho_bandeira": "imgs/south_georgia.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "South Korea",
+    "caminho_bandeira": "imgs/south_korea.png",
+    "pib": "1.88T USD",
+    "idh": 0.896,
+    "pib_per_capita": "36,239 USD",
+    "inflacao": "2.3%",
+    "moeda": "KRW"
+  },
+  {
+    "pais": "South Sudan",
+    "caminho_bandeira": "imgs/south_sudan.png",
+    "pib": "12.00B USD",
+    "idh": 0.713,
+    "pib_per_capita": "1,080 USD",
+    "inflacao": "91.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Spain",
+    "caminho_bandeira": "imgs/spain.png",
+    "pib": "1.73T USD",
+    "idh": 0.895,
+    "pib_per_capita": "35,327 USD",
+    "inflacao": "2.8%",
+    "moeda": "EUR"
+  },
+  {
+    "pais": "Sri Lanka",
+    "caminho_bandeira": "imgs/sri_lanka.png",
+    "pib": "98.96B USD",
+    "idh": 0.788,
+    "pib_per_capita": "4,516 USD",
+    "inflacao": "-0.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Sudan",
+    "caminho_bandeira": "imgs/sudan.png",
+    "pib": "49.67B USD",
+    "idh": 0.708,
+    "pib_per_capita": "985 USD",
+    "inflacao": "138.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Suriname",
+    "caminho_bandeira": "imgs/suriname.png",
+    "pib": "4.42B USD",
+    "idh": 0.81,
+    "pib_per_capita": "6,962 USD",
+    "inflacao": "16.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Svalbard and Jan Mayen",
+    "caminho_bandeira": "imgs/svalbard_and_jan_mayen.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Sweden",
+    "caminho_bandeira": "imgs/sweden.png",
+    "pib": "603.72B USD",
+    "idh": 0.92,
+    "pib_per_capita": "57,117 USD",
+    "inflacao": "2.8%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Switzerland",
+    "caminho_bandeira": "imgs/switzerland.png",
+    "pib": "936.56B USD",
+    "idh": 0.951,
+    "pib_per_capita": "103,998 USD",
+    "inflacao": "1.1%",
+    "moeda": "CHF"
+  },
+  {
+    "pais": "Syria",
+    "caminho_bandeira": "imgs/syria.png",
+    "pib": "23.62B USD",
+    "idh": 0.712,
+    "pib_per_capita": "1,052 USD",
+    "inflacao": "13.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Taiwan",
+    "caminho_bandeira": "imgs/taiwan.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Tajikistan",
+    "caminho_bandeira": "imgs/tajikistan.png",
+    "pib": "14.20B USD",
+    "idh": 0.724,
+    "pib_per_capita": "1,341 USD",
+    "inflacao": "6.0%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Tanzania",
+    "caminho_bandeira": "imgs/tanzania.png",
+    "pib": "78.84B USD",
+    "idh": 0.718,
+    "pib_per_capita": "1,187 USD",
+    "inflacao": "3.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Thailand",
+    "caminho_bandeira": "imgs/thailand.png",
+    "pib": "526.52B USD",
+    "idh": 0.813,
+    "pib_per_capita": "7,347 USD",
+    "inflacao": "1.4%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Timor-Leste",
+    "caminho_bandeira": "imgs/timorleste.png",
+    "pib": "1.87B USD",
+    "idh": 0.724,
+    "pib_per_capita": "1,332 USD",
+    "inflacao": "2.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Togo",
+    "caminho_bandeira": "imgs/togo.png",
+    "pib": "10.65B USD",
+    "idh": 0.715,
+    "pib_per_capita": "1,119 USD",
+    "inflacao": "2.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Tokelau",
+    "caminho_bandeira": "imgs/tokelau.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Tonga",
+    "caminho_bandeira": "imgs/tonga.png",
+    "pib": "591,139,749 USD",
+    "idh": 0.799,
+    "pib_per_capita": "5,652 USD",
+    "inflacao": "3.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Trinidad and Tobago",
+    "caminho_bandeira": "imgs/trinidad_and_tobago.png",
+    "pib": "25.63B USD",
+    "idh": 0.862,
+    "pib_per_capita": "18,733 USD",
+    "inflacao": "0.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Tunisia",
+    "caminho_bandeira": "imgs/tunisia.png",
+    "pib": "51.33B USD",
+    "idh": 0.784,
+    "pib_per_capita": "4,181 USD",
+    "inflacao": "7.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Turkey",
+    "caminho_bandeira": "imgs/turkey.png",
+    "pib": "1.36T USD",
+    "idh": 0.853,
+    "pib_per_capita": "15,893 USD",
+    "inflacao": "58.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Turkmenistan",
+    "caminho_bandeira": "imgs/turkmenistan.png",
+    "pib": "51.39B USD",
+    "idh": 0.809,
+    "pib_per_capita": "6,857 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Turks and Caicos Islands",
+    "caminho_bandeira": "imgs/turks_and_caicos_islands.png",
+    "pib": "1.75B USD",
+    "idh": 0.898,
+    "pib_per_capita": "37,507 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Tuvalu",
+    "caminho_bandeira": "imgs/tuvalu.png",
+    "pib": "62,280,312 USD",
+    "idh": 0.805,
+    "pib_per_capita": "6,345 USD",
+    "inflacao": "0.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Uganda",
+    "caminho_bandeira": "imgs/uganda.png",
+    "pib": "53.91B USD",
+    "idh": 0.713,
+    "pib_per_capita": "1,078 USD",
+    "inflacao": "3.3%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Ukraine",
+    "caminho_bandeira": "imgs/ukraine.png",
+    "pib": "190.74B USD",
+    "idh": 0.797,
+    "pib_per_capita": "5,389 USD",
+    "inflacao": "6.5%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "United Arab Emirates",
+    "caminho_bandeira": "imgs/united_arab_emirates.png",
+    "pib": "552.32B USD",
+    "idh": 0.913,
+    "pib_per_capita": "50,274 USD",
+    "inflacao": "1.7%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "United Kingdom",
+    "caminho_bandeira": "imgs/united_kingdom.png",
+    "pib": "3.69T USD",
+    "idh": 0.916,
+    "pib_per_capita": "53,246 USD",
+    "inflacao": "3.3%",
+    "moeda": "GBP"
+  },
+  {
+    "pais": "United Nations",
+    "caminho_bandeira": "imgs/united_nations.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "United States",
+    "caminho_bandeira": "imgs/united_states.png",
+    "pib": "28.75T USD",
+    "idh": 0.94,
+    "pib_per_capita": "84,534 USD",
+    "inflacao": "2.9%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "United States Minor Outlying Islands",
+    "caminho_bandeira": "imgs/united_states_minor_outlying_islands.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "United States Virgin Islands",
+    "caminho_bandeira": "imgs/united_states_virgin_islands.png",
+    "pib": "4.67B USD",
+    "idh": 0.906,
+    "pib_per_capita": "44,321 USD",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Uruguay",
+    "caminho_bandeira": "imgs/uruguay.png",
+    "pib": "80.96B USD",
+    "idh": 0.874,
+    "pib_per_capita": "23,907 USD",
+    "inflacao": "4.8%",
+    "moeda": "UYU"
+  },
+  {
+    "pais": "Uzbekistan",
+    "caminho_bandeira": "imgs/uzbekistan.png",
+    "pib": "114.97B USD",
+    "idh": 0.769,
+    "pib_per_capita": "3,162 USD",
+    "inflacao": "9.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Vanuatu",
+    "caminho_bandeira": "imgs/vanuatu.png",
+    "pib": "1.12B USD",
+    "idh": 0.773,
+    "pib_per_capita": "3,411 USD",
+    "inflacao": "11.2%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Vatican City (Holy See)",
+    "caminho_bandeira": "imgs/vatican_city_holy_see.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Venezuela",
+    "caminho_bandeira": "imgs/venezuela.png",
+    "pib": "119.80B USD",
+    "idh": 0.784,
+    "pib_per_capita": "4,218 USD",
+    "inflacao": "254.9%",
+    "moeda": "VED"
+  },
+  {
+    "pais": "Vietnam",
+    "caminho_bandeira": "imgs/vietnam.png",
+    "pib": "476.39B USD",
+    "idh": 0.79,
+    "pib_per_capita": "4,717 USD",
+    "inflacao": "3.6%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Wallis and Futuna",
+    "caminho_bandeira": "imgs/wallis_and_futuna.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Western Sahara",
+    "caminho_bandeira": "imgs/western_sahara.png",
+    "pib": "N/A",
+    "idh": 0.65,
+    "pib_per_capita": "N/A",
+    "inflacao": "N/A",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Yemen",
+    "caminho_bandeira": "imgs/yemen.png",
+    "pib": "21.61B USD",
+    "idh": 0.685,
+    "pib_per_capita": "634 USD",
+    "inflacao": "8.1%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Zambia",
+    "caminho_bandeira": "imgs/zambia.png",
+    "pib": "25.30B USD",
+    "idh": 0.718,
+    "pib_per_capita": "1,187 USD",
+    "inflacao": "15.0%",
+    "moeda": "USD"
+  },
+  {
+    "pais": "Zimbabwe",
+    "caminho_bandeira": "imgs/zimbabwe.png",
+    "pib": "41.54B USD",
+    "idh": 0.757,
+    "pib_per_capita": "2,497 USD",
+    "inflacao": "104.7%",
+    "moeda": "USD"
+  }
+]
