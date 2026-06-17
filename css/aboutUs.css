@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     
     --color-primary-bg: #FFFFFF;
@@ -19,6 +20,8 @@
     --font-main: "Plus Jakarta Sans", sans-serif;
     --transition-fast: all 0.3s ease;
 }
+=======
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 
 * {
     box-sizing: border-box;
@@ -155,10 +158,18 @@ body, html {
     width: 100%;
     height: 100%;
     overflow: hidden;
+<<<<<<< HEAD
     font-family: var(--font-main);
     background-color: transparent; 
 }
 
+=======
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: transparent; 
+}
+
+
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 .coin-video {
     position: fixed;
     top: 50%;
@@ -170,6 +181,10 @@ body, html {
     object-fit: cover;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 .page-container {
     position: relative;
     width: 100%;
@@ -182,6 +197,10 @@ body, html {
     background: transparent;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 .header {
     display: flex;
     justify-content: space-between;
@@ -194,27 +213,49 @@ body, html {
     font-size: 24px;
     font-weight: 800;
     text-decoration: none;
+<<<<<<< HEAD
     color: var(--color-primary-text);
 }
 
 .brand-logo span {
     color: var(--color-brand-accent); 
+=======
+    color: #000000;
+}
+
+.brand-logo span {
+    color: rgb(56, 255, 189); 
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 }
 
 .links a {
     margin: 0 20px;
     text-decoration: none;
+<<<<<<< HEAD
     color: var(--color-link-dimmed); 
     font-weight: 500;
     transition: var(--transition-fast);
+=======
+    color: rgba(0, 0, 0, 0.6); 
+    font-weight: 500;
+    transition: all 0.3s ease;
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 }
 
 .links a:hover, 
 .links a.active {
+<<<<<<< HEAD
     color: var(--color-primary-text);
     font-weight: 600;
 }
 
+=======
+    color: #000000;
+    font-weight: 600;
+}
+
+
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 .login-buttons {
     display: flex;
     gap: 15px;
@@ -227,6 +268,7 @@ body, html {
     font-weight: 600;
     cursor: pointer;
     border: none;
+<<<<<<< HEAD
     transition: var(--transition-fast);
 }
 
@@ -253,6 +295,37 @@ body, html {
     box-shadow: var(--shadow-primary-hover);
 }
 
+=======
+    transition: all 0.3s ease;
+}
+
+
+.btn-secondary {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.btn-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.btn-primary {
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.btn-primary:hover {
+    background-color: #1a1a1a;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 .content-footer {
     display: flex;
     justify-content: space-between;
@@ -264,7 +337,11 @@ body, html {
 .about-title {
     font-size: 64px;
     font-weight: 800;
+<<<<<<< HEAD
     color: var(--color-primary-text);
+=======
+    color: #000000;
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
     margin: 0;
     line-height: 1;
     letter-spacing: -0.02em;
@@ -274,12 +351,19 @@ body, html {
     max-width: 450px;
     font-size: 16px;
     line-height: 1.6;
+<<<<<<< HEAD
     color: var(--color-primary-text); 
+=======
+    color: #000000; 
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
     font-weight: 500;  
     letter-spacing: -0.01em;
     margin: 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 .scroll-indicator {
     position: absolute;
     bottom: 20px;
@@ -287,7 +371,11 @@ body, html {
     transform: translateX(-50%);
     font-size: 11px;
     font-weight: 600;
+<<<<<<< HEAD
     color: var(--color-scroll-indicator);
+=======
+    color: rgba(0, 0, 0, 0.5);
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-align: center;
@@ -304,7 +392,10 @@ body, html {
     40% { transform: translateY(-5px); }
     60% { transform: translateY(-3px); }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d3b346dd4f91f69ead2a8a12ea9ad28de74e9af0
 @media (max-width: 768px) {
     .page-container {
         padding: 20px;
